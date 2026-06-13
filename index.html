@@ -72,14 +72,14 @@
       <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
         <div class="hero-badge">
           <span class="hero-badge-ico"><img src="Imagenes/Calendario.png" alt="Calendario"
-              style="width: 50%; height: auto;"></span>
+              style="width: 50%; height: auto;" loading="lazy"></span>
           <span>Fundado 4 Nov 1583</span>
         </div>
         <div class="hero-badge" style="cursor:pointer;"
           onclick="setTimeout(() => document.getElementById('inicio')?.scrollIntoView({behavior:'smooth', block:'start'}), 50);"
           title="Ver clima actual">
           <span class="hero-badge-ico"><img src="Imagenes/Termometro de Temperatura.png" alt="Temperatura"
-              style="width:50%;height:auto;"></span>
+              style="width:50%;height:auto;" loading="lazy"></span>
           <span id="clima-temp-badge">--°C</span>
         </div>
       </div>
@@ -94,16 +94,16 @@
       <div class="hero-chips">
         <div class="hero-chip">
           <span class="hero-chip-ico"><img src="Imagenes/Montañitas.png" alt="Montañas"
-              style="width: 35%; height: auto;"></span>
+              style="width: 35%; height: auto;" loading="lazy"></span>
           <span>845 m s.n.m.</span>
         </div>
         <div class="hero-chip">
-          <span class="hero-chip-ico"><img src="Imagenes/Mapa.png" alt="mapa" style="width: 35%; height: auto;"></span>
+          <span class="hero-chip-ico"><img src="Imagenes/Mapa.png" alt="mapa" style="width: 35%; height: auto;" loading="lazy"></span>
           <span>493 km²</span>
         </div>
         <div class="hero-chip">
           <span class="hero-chip-ico"><img src="Imagenes/Personas.png" alt="Personas"
-              style="width: 35%; height: auto;"></span>
+              style="width: 35%; height: auto;" loading="lazy"></span>
           <span>11.664 hab.</span>
         </div>
         <div class="hero-chip">
@@ -120,7 +120,7 @@
           onclick="const btnInicio=document.querySelector('.sec-btn[onclick*=\'inicio\']'); if(btnInicio) cambiarSeccion(btnInicio,'inicio'); setTimeout(() => document.getElementById('seccion-mapa')?.scrollIntoView({behavior:'smooth', block:'start'}), 80);"
           style="cursor:pointer;">
           <span class="hero-chip-ico"><img src="Imagenes/Ubicacion.png" alt="Ubicacion"
-              style="width:20px;height:20px;object-fit:contain;"></span>
+              style="width:20px;height:20px;object-fit:contain;" loading="lazy"></span>
           <span>Cómo llegar</span>
         </div>
       </div>
@@ -153,7 +153,7 @@
 
         <!-- ══ SECCIÓN 1: CLIMA ══ -->
         <section class="si-seccion si-clima reveal-sec">
-          <div class="si-label"> <img src="Imagenes/Nube.png" alt="Nube" style="width: 10%; height: auto;"> CLIMA ACTUAL
+          <div class="si-label"> <img src="Imagenes/Nube.png" alt="Nube" style="width: 10%; height: auto;" loading="lazy"> CLIMA ACTUAL
           </div>
           <h2 class="si-titulo" id="clima-titulo-vis">Cargando…</h2>
           <p class="si-subtitulo">El clima de Salazar de las Palmas es templado, con condiciones ideales para el cultivo
@@ -161,19 +161,19 @@
           <div class="si-clima-grid">
             <div class="si-clima-card si-clima-rojo reveal-card">
               <div class="si-clima-icono-wrap"><img src="Imagenes/Termometro de Temperatura.png" alt="Termometro"
-                  style="width: 50%; height: auto;"></div>
+                  style="width: 50%; height: auto;" loading="lazy"></div>
               <div class="si-clima-num" id="clima-temp-vis">--°C</div>
               <div class="si-clima-lbl">Temperatura actual</div>
             </div>
             <div class="si-clima-card si-clima-amarillo reveal-card">
               <div class="si-clima-icono-wrap"><img src="Imagenes/Gota de Agua.png" alt="Gota de agua"
-                  style="width: 50%; height: auto;"></div>
+                  style="width: 50%; height: auto;" loading="lazy"></div>
               <div class="si-clima-num" id="clima-hum-vis">--%</div>
               <div class="si-clima-lbl">Humedad relativa</div>
             </div>
             <div class="si-clima-card si-clima-verde reveal-card">
               <div class="si-clima-icono-wrap"><img src="Imagenes/Viento.png" alt="Viento"
-                  style="width: 50%; height: auto;"></div>
+                  style="width: 50%; height: auto;" loading="lazy"></div>
               <div class="si-clima-num" id="clima-viento-vis">-- km/h</div>
               <div class="si-clima-lbl">Velocidad del viento</div>
             </div>
@@ -204,25 +204,25 @@
           <div class="si-geo-grid">
             <div class="si-geo-stat si-geo-rojo reveal-card">
               <div class="si-geo-stat-icon"><img src="Imagenes/Personas.png" alt="Personas"
-                  style="width: 15%; height: auto;"></div>
+                  style="width: 15%; height: auto;" loading="lazy"></div>
               <div class="si-geo-stat-num"><span class="si-count" data-target="11664">0</span></div>
               <div class="si-geo-stat-lbl">POBLACIÓN TOTAL</div>
             </div>
             <div class="si-geo-stat si-geo-amarillo reveal-card">
-              <div class="si-geo-stat-icon"><img src="Imagenes/Mapa.png" alt="mapa" style="width: 15%; height: auto;">
+              <div class="si-geo-stat-icon"><img src="Imagenes/Mapa.png" alt="mapa" style="width: 15%; height: auto;" loading="lazy">
               </div>
               <div class="si-geo-stat-num"><span class="si-count" data-target="493">0</span> <small>km²</small></div>
               <div class="si-geo-stat-lbl">SUPERFICIE TOTAL</div>
             </div>
             <div class="si-geo-stat si-geo-verde reveal-card">
               <div class="si-geo-stat-icon"><img src="Imagenes/Estadisticas.png" alt="Estadistica"
-                  style="width: 15%; height: auto;"></div>
+                  style="width: 15%; height: auto;" loading="lazy"></div>
               <div class="si-geo-stat-num"><span class="si-count" data-target="316">0</span></div>
               <div class="si-geo-stat-lbl">HAB/KM²</div>
             </div>
             <div class="si-geo-stat si-geo-oscuro reveal-card">
               <div class="si-geo-stat-icon"><img src="Imagenes/Ubicacion.png" alt="Ubicacion"
-                  style="width: 15%; height: auto;"></div>
+                  style="width: 15%; height: auto;" loading="lazy"></div>
               <div class="si-geo-stat-num"><span class="si-count" data-target="845">0</span> <small>m</small></div>
               <div class="si-geo-stat-lbl">ALTITUD S.N.M.</div>
             </div>
@@ -232,7 +232,7 @@
           <div class="si-coords-wrap">
             <div class="si-coords reveal-card">
               <span class="si-coords-icon"><img src="Imagenes/Brujula.png" alt="Ubicacion"
-                  style="width: 40%; height: auto;"></span>
+                  style="width: 40%; height: auto;" loading="lazy"></span>
               <span class="si-coords-label">COORDENADAS</span>
               <span class="si-coords-val">7°46′25″N, 72°48′44″O</span>
             </div>
@@ -265,19 +265,19 @@
           <div class="si-eco-grid si-eco-grid-3">
             <div class="si-eco-card si-eco-verde reveal-card">
               <div class="si-eco-icon-box"><img src="Imagenes/Planta.png" alt="Planta"
-                  style="width: 60%; height: auto;"></div>
+                  style="width: 60%; height: auto;" loading="lazy"></div>
               <h3>Frutales y Cacao</h3>
               <p>La tierra fértil permite el cultivo de diversos frutales y cacao de excelente calidad.</p>
             </div>
             <div class="si-eco-card si-eco-amarillo reveal-card">
               <div class="si-eco-icon-box"><img src="Imagenes/Comida.png" alt="Comida"
-                  style="width: 60%; height: auto;"></div>
+                  style="width: 60%; height: auto;" loading="lazy"></div>
               <h3>Ganadería</h3>
               <p>Cría bovina y porcina que sustenta a muchas familias salazareñas.</p>
             </div>
             <div class="si-eco-card si-eco-oscuro reveal-card">
               <div class="si-eco-icon-box"><img src="Imagenes/Mineria.png" alt="Mineria"
-                  style="width: 60%; height: auto;"></div>
+                  style="width: 60%; height: auto;" loading="lazy"></div>
               <h3>Minería de Carbón</h3>
               <p>La explotación de carbón es una actividad económica importante para la región.</p>
             </div>
@@ -301,13 +301,13 @@
             <div class="si-mapa-info">
               <div class="si-mapa-card reveal-card">
                 <div class="si-mapa-card-icon"><img src="Imagenes/Ubicacion.png" alt="Ubicacion"
-                    style="width: 10%; height: auto;"></div>
+                    style="width: 10%; height: auto;" loading="lazy"></div>
                 <div class="si-mapa-card-label">COORDENADAS</div>
                 <div class="si-mapa-card-val">7°46′25″N<br>72°48′44″O</div>
               </div>
               <div class="si-mapa-card reveal-card">
                 <div class="si-mapa-card-icon"><img src="Imagenes/Ubicacion 2.png" alt="Ubicacion"
-                    style="width: 10%; height: auto;"></div>
+                    style="width: 10%; height: auto;" loading="lazy"></div>
                 <div class="si-mapa-card-label">ALTITUD</div>
                 <div class="si-mapa-card-val-grande">845 <small>m s.n.m.</small></div>
                 <div class="si-mapa-card-sub">Situado en las montañas del Norte de Santander</div>
@@ -332,7 +332,7 @@
               </div>
               <a class="si-mapa-btn reveal-card" href="https://maps.google.com/?q=Salazar,Norte+de+Santander,Colombia"
                 target="_blank">
-                <img src="Imagenes/Mapa.png" alt="Mapa" style="width: 10%; height: auto;"> VER EN GOOGLE MAPS
+                <img src="Imagenes/Mapa.png" alt="Mapa" style="width: 10%; height: auto;" loading="lazy"> VER EN GOOGLE MAPS
               </a>
             </div>
           </div>
@@ -390,7 +390,7 @@
         <div class="grilla">
 
           <div class="tarjeta" onclick="abrirDetalle('ParquePrincipal')">
-            <div class="tarjeta-img"><img src="./Imagenes/Parque Principal 4.jpeg" alt="Parque Principal"></div>
+            <div class="tarjeta-img"><img src="./Imagenes/Parque Principal 4.jpeg" alt="Parque Principal" loading="lazy"></div>
             <span class="tarjeta-badge">Destacado</span>
             <div class="tarjeta-body">
               <div class="tarjeta-nombre">Parque Principal</div>
@@ -400,7 +400,7 @@
 
           <div class="tarjeta" onclick="abrirDetalle('TemploSanPablo')">
             <div class="tarjeta">
-              <div class="tarjeta-img"><img src="./Imagenes/Templo San Pablo 2.jpeg" alt="Templo San Pablo"></div>
+              <div class="tarjeta-img"><img src="./Imagenes/Templo San Pablo 2.jpeg" alt="Templo San Pablo" loading="lazy"></div>
               <div class="tarjeta-body">
                 <div class="tarjeta-nombre">Templo San Pablo</div>
                 <span class="tarjeta-ver">Ver más →</span>
@@ -410,7 +410,7 @@
 
           <div class="tarjeta" onclick="abrirDetalle('SieteChorros')">
             <div class="tarjeta">
-              <div class="tarjeta-img"><img src="./Imagenes/Los Siete Chorros.jpeg" alt="Los Siete Chorros"></div>
+              <div class="tarjeta-img"><img src="./Imagenes/Los Siete Chorros.jpeg" alt="Los Siete Chorros" loading="lazy"></div>
               <div class="tarjeta-body">
                 <div class="tarjeta-nombre">El Milagro de Nuestra Señora de Belén y los Siete Chorros</div>
                 <span class="tarjeta-ver">Ver más →</span>
@@ -421,7 +421,7 @@
           <div class="tarjeta" onclick="abrirDetalle('CasaDeMercado')">
             <div class="tarjeta">
               <div class="tarjeta-img"><img src="./Imagenes/Casa De Mercado 13 de Junio 3.jpg"
-                  alt="Casa De Mercado 13 de Junio Salazar De Las Palmas"></div>
+                  alt="Casa De Mercado 13 de Junio Salazar De Las Palmas" loading="lazy"></div>
               <div class="tarjeta-body">
                 <div class="tarjeta-nombre">Casa de Mercado 13 de Junio</div>
                 <span class="tarjeta-ver">Ver más →</span>
@@ -431,7 +431,7 @@
 
           <div class="tarjeta" onclick="abrirDetalle('RioSalazar')">
             <div class="tarjeta">
-              <div class="tarjeta-img"><img src="./Imagenes/Pozo Juana Naranja.jpg" alt="Rio de Salazar De Las Palmas">
+              <div class="tarjeta-img"><img src="./Imagenes/Pozo Juana Naranja.jpg" alt="Rio de Salazar De Las Palmas" loading="lazy">
               </div>
               <div class="tarjeta-body">
                 <div class="tarjeta-nombre">Río Salazar</div>
@@ -443,7 +443,7 @@
           <div class="tarjeta" onclick="abrirDetalle('patinodromo')">
             <div class="tarjeta">
               <div class="tarjeta-img"><img src="./Imagenes/Patinodromo.jpeg"
-                  alt="Patinodromo de Salazar De Las Palmas">
+                  alt="Patinodromo de Salazar De Las Palmas" loading="lazy">
               </div>
               <div class="tarjeta-body">
                 <div class="tarjeta-nombre">Patinodromo Salazar de las Palmas</div>
@@ -565,29 +565,29 @@
             <div class="detalle-archivo-libro" style="margin: 0;">
               <div class="marco-imagen">
                 <img src="./Imagenes/Parque Principal 3.jpg" alt="Parque Principal"
-                  style="width: 100%; height: 100%; object-fit: cover;">
+                  style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               </div>
             </div>
 
             <div class="detalle-archivo-libro" style="margin: 0;">
               <div class="marco-imagen">
                 <img src="./Imagenes/Parque Principal 5.jpeg" alt="Parque Principal"
-                  style="width: 100%; height: 100%; object-fit: cover;">
+                  style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               </div>
             </div>
           </div>
 
           <div class="detalle-cards-mini" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
             <div class="detalle-card-mini">
-              <img src="./Imagenes/Parque Principal.jpg" style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+              <img src="./Imagenes/Parque Principal.jpg" style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
             </div>
             <div class="detalle-card-mini">
               <img src="./Imagenes/Parque Principal 2.jpeg"
-                style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+                style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
             </div>
             <div class="detalle-card-mini">
               <img src="./Imagenes/Parque Principal 6.jpeg"
-                style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+                style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
             </div>
           </div>
 
@@ -639,13 +639,13 @@
             urbano.</p>
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo 2.jpeg" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo San Pablo 2.jpeg" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p>El atrio majestuoso que da la bienvenida al encuentro con Dios.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo 3.jpg" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo San Pablo 3.jpg" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p>Perspectiva desde las escalinatas resaltando su grandeza neogótica hacia el cielo.</p>
               </div>
@@ -688,56 +688,56 @@
 
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Cacique Cinera y Templo san pablo.jpg" alt="Templo San Pablo y Cacique Cinera">
+              <img src="./Imagenes/Cacique Cinera y Templo san pablo.jpg" alt="Templo San Pablo y Cacique Cinera" loading="lazy">
               <div class="foto-info">
                 <p>Las torres y el monumento al Cacique Cinera: fe y resistencia unidas.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo.jpeg" alt="Detalle Arquitectónico">
+              <img src="./Imagenes/Templo San Pablo.jpeg" alt="Detalle Arquitectónico" loading="lazy">
               <div class="foto-info">
                 <p>Joyas de arquitectura donde la tierra se eleva y el alma encuentra paz.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo 4.jpg" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo San Pablo 4.jpg" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p>Registro histórico que muestra la esencia perdurable de la estructura original.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo 5.png" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo San Pablo 5.png" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p>La comunidad unida en fe durante una celebración litúrgica solemne.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo 6.png" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo San Pablo 6.png" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p>El presbiterio y altar mayor, donde la arquitectura se convierte en luz.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo SanPablo 7.png" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo SanPablo 7.png" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p>Vista desde el interior del templo San Pablo</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo 8.jpg" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo San Pablo 8.jpg" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p><strong>Fachada Azul</strong> Registro del templo con su anterior color azul vibrante, resaltando los
                   detalles blancos de sus torres y arcos.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo  9.png" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo San Pablo  9.png" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p>Vista del imponente templo San Pablo desde los aires</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Templo San Pablo 10.jpg" alt="Templo San Pablo">
+              <img src="./Imagenes/Templo San Pablo 10.jpg" alt="Templo San Pablo" loading="lazy">
               <div class="foto-info">
                 <p>Fachada actual en tonos crema, destacando la elegancia de sus líneas neogóticas bajo la luz natura
                 </p>
@@ -832,7 +832,7 @@
           <div class="galeria-templo">
             <div class="foto-item">
               <img src="./Imagenes/Santuario dela virgen de belen.jpg"
-                alt="Santuario De la virgen de belen Salazar de las Palmas">
+                alt="Santuario De la virgen de belen Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>Monumento a la Virgen de Belén en el corazón de la naturaleza, marcando el sitio sagrado donde la fe
                   y el paisaje se encuentran.</p>
@@ -840,7 +840,7 @@
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Lienzo Original De la Virgen De belen.png"
-                alt="Lienzo Original De la Virgen De belen Salazar de las Palmas">
+                alt="Lienzo Original De la Virgen De belen Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>El sagrado lienzo de 1671, conservado en perfecto estado como símbolo eterno de esperanza y milagros.
                 </p>
@@ -848,7 +848,7 @@
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Santuario de la Virgen 2.png"
-                alt="Santuario De la virgen de belen Salazar de las Palmas">
+                alt="Santuario De la virgen de belen Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>Detalle de la imagen de "La Ojona", protegida por el arco que simboliza la devoción de los Cineras y
                   el pueblo salazareño.</p>
@@ -864,21 +864,21 @@
             realiza como agradecimiento por los milagros recibidos o como una petición de renovación espiritual.</p>
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Los Siete Chorros.jpeg" alt="Los Siete Chorros">
+              <img src="./Imagenes/Los Siete Chorros.jpeg" alt="Los Siete Chorros" loading="lazy">
               <div class="foto-info">
                 <p>El agua helada de la montaña brota en este paraje tibio, ofreciendo una experiencia refrescante bajo
                   árboles de gran altura..</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Los Siete Chorros 2.jpg" alt="Los Siete Chorros">
+              <img src="./Imagenes/Los Siete Chorros 2.jpg" alt="Los Siete Chorros" loading="lazy">
               <div class="foto-info">
                 <p>Las siete regaderas naturales donde los fieles realizan el ritual de agradecimiento y purificación.
                 </p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Los Siete Chorros 3.jpg" alt="Los Siete Chorros">
+              <img src="./Imagenes/Los Siete Chorros 3.jpg" alt="Los Siete Chorros" loading="lazy">
               <div class="foto-info">
                 <p>Cientos de devotos se reúnen en busca de bendiciones, rodeados de naturaleza y el sonido constante
                   del torrente sagrado.</p>
@@ -903,7 +903,7 @@
           <div class="galeria-templo">
             <div class="foto-item">
               <img src="./Imagenes/Santuario de la Virgen Los Siete Chorros 2.jpeg"
-                alt="Santuario de la Virgen Los Siete Chorros Salazar de las Palmas">
+                alt="Santuario de la Virgen Los Siete Chorros Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>El enrejado del Santuario cubierto de cintas y flores, testimonios físicos de los innumerables
                   milagros y favores recibidos de la Virgen.</p>
@@ -911,7 +911,7 @@
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Santuario de la Virgen Los Siete Chorros 3.png"
-                alt="Santuario de la Virgen Los Siete Chorros Salazar de las Palmas">
+                alt="Santuario de la Virgen Los Siete Chorros Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>Un espacio de luz y recogimiento donde los peregrinos encienden velas para elevar sus plegarias cerca
                   del agua sagrada.</p>
@@ -919,7 +919,7 @@
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Santuario de la Virgen Los Siete Chorros.jpeg"
-                alt="Santuario de la Virgen Los Siete Chorros Salazar de las Palmas">
+                alt="Santuario de la Virgen Los Siete Chorros Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>La mirada profunda de "La Ojona" iluminada por la luz de las velas, creando un ambiente de paz
                   perfecto para la conexión espiritual.</p>
@@ -931,19 +931,19 @@
             del mundo y desean sumergirse en una historia de fe que ha perdurado por más de tres siglos".</div>
           <div class="detalle-cards-mini" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
             <div class="detalle-card-mini">
-              <img src="./Imagenes/Velas de fe.jpeg" style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+              <img src="./Imagenes/Velas de fe.jpeg" style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
               <figcaption><strong>Velas en el Santuario: </strong>La tenue luz de las velas encendidas por los fieles
                 que llegan al encuentro de la Virgen para susurrar sus plegarias.</figcaption>
             </div>
             <div class="detalle-card-mini">
               <img src="./Imagenes/Camino a los Siete chorros.jpeg"
-                style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+                style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
               <figcaption><strong>Sendero entre árboles: </strong>El camino empedrado rumbo a la cumbre, rodeado de
                 altísimos árboles que crean un juego místico de luces y sombras.</figcaption>
             </div>
             <div class="detalle-card-mini">
               <img src="./Imagenes/Vela Santuario  de la Virgen De Belen.jpeg"
-                style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+                style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
               <figcaption><strong>Muro de gratitud: </strong>Decenas de milagros y símbolos colgados en las paredes
                 laterales, testimonios reales de la fe y los favores recibidos de la Patrona de Salazar.</figcaption>
               <p></p>
@@ -1003,7 +1003,7 @@
             mientras que los agricultores traían la frescura de las veredas a puntos de venta fijos.</p>
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Casa De Mercado 13 de Junio 2.jpg" alt="Casa De Mercado 13 de Junio">
+              <img src="./Imagenes/Casa De Mercado 13 de Junio 2.jpg" alt="Casa De Mercado 13 de Junio" loading="lazy">
               <div class="foto-info">
                 <p>Una vista de la estructura remodelada, donde la icónica fachada de 1954 se integra con una
                   arquitectura contemporánea de amplios ventanales, reflejando el sueño de los habitantes de ver su
@@ -1012,14 +1012,14 @@
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Casa De Mercado 13 de Junio Diseño Antiguo.jpg"
-                alt="Casa De Mercado 13 de Junio Diseño Antiguo">
+                alt="Casa De Mercado 13 de Junio Diseño Antiguo" loading="lazy">
               <div class="foto-info">
                 <p> "1954 - Casa de Mercado 13 de Junio" con su diseño antiguo, donde se respira la historia de siete
                   décadas de intercambio agrícola y tradición salazareña.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Casa De Mercado 13 de Junio.jpg" alt="Casa De Mercado 13 de Junio">
+              <img src="./Imagenes/Casa De Mercado 13 de Junio.jpg" alt="Casa De Mercado 13 de Junio" loading="lazy">
               <div class="foto-info">
                 <p>Esta imponente estructura de dos pisos, conserva el aire republicano de la época en que el edificio.
                 </p>
@@ -1058,21 +1058,21 @@
           <div class="galeria-templo">
             <div class="foto-item">
               <img src="./Imagenes/Casa de Mercado Desde Andetro con su  remodelacion.png"
-                alt="Casa De Mercado 13 de Junio Desde Andetro con su  remodelacionC">
+                alt="Casa De Mercado 13 de Junio Desde Andetro con su  remodelacionC" loading="lazy">
               <div class="foto-info">
                 <p>Casa De Mercado 13 de Junio Desde Andetro con su remodelacion</p>
               </div>
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Casa De Mercado 13 de Junio Desde Adentro en su Diseño Antiguo.jpg"
-                alt="Casa De Mercado 13 de Junio Diseño Antiguo Desde Adentro en su Diseño Antiguo">
+                alt="Casa De Mercado 13 de Junio Diseño Antiguo Desde Adentro en su Diseño Antiguo" loading="lazy">
               <div class="foto-info">
                 <p> Casa De Mercado 13 de Junio Diseño Antiguo Desde Adentro en su Diseño Antiguo</p>
               </div>
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Casa De Mercado 13 de Junio Desde Andetro.jpg"
-                alt="Casa De Mercado 13 de Junio Desde Andetro">
+                alt="Casa De Mercado 13 de Junio Desde Andetro" loading="lazy">
               <div class="foto-info">
                 <p>Casa De Mercado 13 de Junio Desde Andetro</p>
               </div>
@@ -1166,7 +1166,7 @@
           <h2 class="detalle-titulo-negro">Balneario los Pomarrosos</h2>
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Balneario Los Pomarrosos.jpg" alt="Balneario Los Pomarrosos">
+              <img src="./Imagenes/Balneario Los Pomarrosos.jpg" alt="Balneario Los Pomarrosos" loading="lazy">
               <div class="foto-info">
                 <p>Una vista panorámica que captura la esencia democrática del río, mostrando a numerosos bañistas
                   disfrutando de las aguas cristalinas entre grandes rocas, con el característico entorno de vegetación
@@ -1174,7 +1174,7 @@
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Balneario Los Pomarrosos 2.png" alt="Balneario Los Pomarrosos">
+              <img src="./Imagenes/Balneario Los Pomarrosos 2.png" alt="Balneario Los Pomarrosos" loading="lazy">
               <div class="foto-info">
                 <p> Destaca la zona de baño principal donde se aprecia la transparencia del agua y la convivencia de las
                   familias; al fondo, sobre las piedras, se observa una pequeña gruta o altar que es un punto de
@@ -1182,7 +1182,7 @@
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Balneario Los Pomarrosos 3.png" alt="Balneario Los Pomarrosos">
+              <img src="./Imagenes/Balneario Los Pomarrosos 3.png" alt="Balneario Los Pomarrosos" loading="lazy">
               <div class="foto-info">
                 <p>Una toma más tranquila y natural del cauce del río, donde se aprecia la pureza del agua fluyendo
                   entre las piedras y la majestuosidad de las montañas verdes que rodean y protegen este tesoro hídrico
@@ -1193,7 +1193,7 @@
           <h2 class="detalle-titulo-negro">Puente San Jacinto</h2>
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Puente San Jacinto 2.png" alt="Puente San Jacinto ">
+              <img src="./Imagenes/Puente San Jacinto 2.png" alt="Puente San Jacinto " loading="lazy">
               <div class="foto-info">
                 <p>Una vista del Río Salazar fluyendo bajo una estructura peatonal decorada con murales artísticos,
                   donde se aprecia el agua cristalina y las piedras características que forman los pozos naturales para
@@ -1201,13 +1201,13 @@
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Puente San Jacinto.jpg" alt="Puente San Jacinto ">
+              <img src="./Imagenes/Puente San Jacinto.jpg" alt="Puente San Jacinto " loading="lazy">
               <div class="foto-info">
                 <p> Puente San Jacinto</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Puente San Jacinto 3.png" alt="Puente San Jacinto ">
+              <img src="./Imagenes/Puente San Jacinto 3.png" alt="Puente San Jacinto " loading="lazy">
               <div class="foto-info">
                 <p>Imagen que captura la esencia de un día tradicional en el municipio, con numerosas personas
                   refrescándose en las vertientes que nacen en el Páramo de Santurbán, rodeadas de la densa vegetación
@@ -1218,7 +1218,7 @@
           <h2 class="detalle-titulo-negro">Pozo Juana Naranja</h2>
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Pozo Juana Naranja.jpg" alt="Pozo Juana Naranja">
+              <img src="./Imagenes/Pozo Juana Naranja.jpg" alt="Pozo Juana Naranja" loading="lazy">
               <div class="foto-info">
                 <p>Una captura que muestra las aguas aguamarinas y cristalinas del río fluyendo cerca de una orilla
                   arenosa, rodeada de la densa vegetación que caracteriza a este balneario lleno de tradición y leyendas
@@ -1226,7 +1226,7 @@
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Pozo Juana Naranja 2.png" alt="Pozo Juana Naranja">
+              <img src="./Imagenes/Pozo Juana Naranja 2.png" alt="Pozo Juana Naranja" loading="lazy">
               <div class="foto-info">
                 <p>Imagen que destaca la tranquilidad de un pozo natural donde la superficie del agua actúa como un
                   espejo para el cielo y el follaje, evidenciando el esfuerzo por conservar los árboles a las orillas
@@ -1234,7 +1234,7 @@
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Pozo Juana Naranja 3.jpg" alt="Pozo Juana Naranja">
+              <img src="./Imagenes/Pozo Juana Naranja 3.jpg" alt="Pozo Juana Naranja" loading="lazy">
               <div class="foto-info">
                 <p>Una toma detallada del lecho del río que permite ver con total claridad las piedras en el fondo,
                   demostrando la pureza de las aguas que nacen en el Páramo de Santurbán antes de seguir su curso hacia
@@ -1286,21 +1286,21 @@
           </div>
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Rio Salazar - Sector Aguas Calientes 2.jpg" alt="Rio Salazar Sector Aguas Calientes">
+              <img src="./Imagenes/Rio Salazar - Sector Aguas Calientes 2.jpg" alt="Rio Salazar Sector Aguas Calientes" loading="lazy">
               <div class="foto-info">
                 <p>Una vista capturada desde una de las barandas de paso, donde se observa el cauce abriéndose paso
                   entre grandes rocas y la densa vegetación de galería que lo flanquea.</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Pozo Burbujas.png" alt="Pozo Burbujas Salazar de las Palmas">
+              <img src="./Imagenes/Pozo Burbujas.png" alt="Pozo Burbujas Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>Una toma a nivel del agua que muestra la pureza y los matices azulados del río, con las montañas
                   salazareñas asomándose al fondo bajo un cielo despejado - Pozo Burbujas Salazar de las Palmas</p>
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Rio Salazar - Sector Aguas Calientes.jpg" alt="Rio Salazar Sector Aguas Calientes">
+              <img src="./Imagenes/Rio Salazar - Sector Aguas Calientes.jpg" alt="Rio Salazar Sector Aguas Calientes" loading="lazy">
               <div class="foto-info">
                 <p>Imagen que resalta la fuerza del agua en los tramos donde el río se estrecha, rodeado de un entorno
                   boscoso que mantiene el frescor y la biodiversidad característica de la región.</p>
@@ -1571,7 +1571,7 @@
           del cafe en colombia.</p>
 
         <h4 class="detalle-titulo-negro">BANDERA</h4>
-        <img src="Imagenes/Bandera De Salazar De Las Palmas.svg" alt="Bandera De Salazar De Las Palmas">
+        <img src="Imagenes/Bandera De Salazar De Las Palmas.svg" alt="Bandera De Salazar De Las Palmas" loading="lazy">
         <p class="detalle-parrafo">La bandera de Salazar de las Palmas no es solo un emblema visual; es el "alma" de la
           ciudad capturada en colores. Oficializada mediante el <strong>Acuerdo No. Siete</strong> y rescatada por la
           obra histórica del <strong>Pbro. Cote Lemus</strong>, esta insignia une la fe profunda, el legado de cuatro
@@ -1593,11 +1593,11 @@
             siglos de historia, resistencia y progreso desde la fundación de la ciudad.</p>
           <div class="detalle-nombre-titulo">PRIMER DISEÑO DE LA BANDERA</div>
           <img src="Imagenes/Primer Diseño de la badera.png" alt="Primer Diseño de la Bander"
-            style="width: 50%; height: auto;">
+            style="width: 50%; height: auto;" loading="lazy">
         </div>
 
         <h4 class="detalle-titulo-negro">ESCUDO</h4>
-        <img src="Imagenes/Escudo Salazar De Las Palmas.png" width="300px" alt="ESCUDO">
+        <img src="Imagenes/Escudo Salazar De Las Palmas.png" width="300px" alt="ESCUDO" loading="lazy">
         <h4 class="detalle-titulo-negro">ÉGIDA DE HISTORIA Y FE</h4>
 
         <p class="detalle-parrafo">El escudo de Salazar de las Palmas, adoptado oficialmente mediante el <strong>Acuerdo
@@ -1607,7 +1607,7 @@
         <div class="detalle-hitos">
           <div class="detalle-hito">
             <div class="detalle-hito-icono"><img src="Imagenes/Corona Del Escudo.png" alt="Corona del Escudo"
-                style="width: 130%; height: auto;"></div>
+                style="width: 130%; height: auto;" loading="lazy"></div>
             <div class="detalle-hito-contenido">
               <div class="detalle-hito-titulo">FORMA Y CORONA</div>
               <p>Su campo en <strong>losange</strong> es el apropiado para ciudades con autonomía histórica. Está
@@ -1617,7 +1617,7 @@
           </div>
           <div class="detalle-hito">
             <div class="detalle-hito-icono"><img src="Imagenes/Cruz de san marcos.png" alt="Corona del Escudo"
-                style="width: 130%; height: auto;"></div>
+                style="width: 130%; height: auto;" loading="lazy"></div>
             <div class="detalle-hito-contenido">
               <div class="detalle-hito-titulo">CRUZ DE SAN MARCOS</div>
               <p>El escudo está dividido simétricamente por una <strong>Cruz de San Marcos</strong>, la cual genera
@@ -1627,7 +1627,7 @@
         </div>
         <div class="detalle-nombre-titulo">Primer Diseño Del Escudo</div>
         <img src="Imagenes/Primer  Diseño Del Escudo.png" alt="Primer Diseño del escudo"
-          style="width: 30%; height: auto;">
+          style="width: 30%; height: auto;" loading="lazy">
 
 
         <h3 class="detalle-subtitulo">Significado de los Cuatro Cuarteles</h3>
@@ -1665,7 +1665,7 @@
         <div class="contenedor-principal">
 
           <div class="caja-pergamino">
-            <img src="Imagenes/Himno De Salazar De Las Palmas.png" width="300px" alt="Himno De Salazar De Las Palmas">
+            <img src="Imagenes/Himno De Salazar De Las Palmas.png" width="300px" alt="Himno De Salazar De Las Palmas" loading="lazy">
           </div>
 
           <div class="caja-info">
@@ -1737,7 +1737,7 @@
 
           <div class="detalle-nombre-card" style="text-align: center; background: #fff;">
             <img src="Imagenes/Cedula Real.png" alt="Documento Cédula Real 1611"
-              style="width: 80%; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+              style="width: 80%; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
             <p class="detalle-creditos-fuente">Registro de la Cédula Real de 1611 conservado en los archivos del libro
               <em>"Génesis de Salazar de las Palmas"</em>.
             </p>
@@ -1751,7 +1751,7 @@
         <!-- Dato curioso -->
         <div class="detalle-curiosidad">
           <div class="detalle-curiosidad-icono">
-            <img src="Imagenes/Aparicion de la virgen.png" style="width: 150px; height: auto; border-radius: 5px;">
+            <img src="Imagenes/Aparicion de la virgen.png" style="width: 150px; height: auto; border-radius: 5px;" loading="lazy">
           </div>
           <div>
 
@@ -1816,7 +1816,7 @@
             <div class="grilla acordeon-grilla">
               <div class="tarjeta-historia" onclick="abrirDetalle('ReyMiguel')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">01</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge rojo">Siglo XVI</span>
@@ -1832,7 +1832,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('CulturaCinera')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">02</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge rojo">Pueblo indígena</span>
@@ -1880,7 +1880,7 @@
             <div class="grilla acordeon-grilla">
               <div class="tarjeta-historia" onclick="abrirDetalle('PrimeraPrefundacion')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">03</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge rojo">1561 · 1ª Prefundación</span>
@@ -1897,7 +1897,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('SegundaPrefundacion')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">04</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge rojo">1563 · 2ª Prefundación</span>
@@ -1913,7 +1913,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('TerceraPrefundacion')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">05</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge rojo">1567 · 3ª Prefundación</span>
@@ -1929,7 +1929,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('CuartaPrefundacion')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">06</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge rojo">1580 · 4ª Prefundación</span>
@@ -1945,7 +1945,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('fundacion')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">07</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge azul">1583 · Fundación Definitiva</span>
@@ -1961,7 +1961,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('Fundador')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">08</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge rojo">El Fundador</span>
@@ -2006,7 +2006,7 @@
             <div class="grilla acordeon-grilla">
               <div class="tarjeta-historia" onclick="abrirDetalle('MilagrosoLienzo')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">09</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge verde">1671 · Fe</span>
@@ -2022,7 +2022,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('TransladoDelLienzo')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">10</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge verde">1671 · Fe</span>
@@ -2038,7 +2038,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('CunaDelCafe')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">11</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge verde">S. XVIII · Café</span>
@@ -2054,7 +2054,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('Hidroelectrica')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">12</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge verde">1914 · Energía</span>
@@ -2070,7 +2070,7 @@
               </div>
               <div class="tarjeta-historia" onclick="abrirDetalle('AvionetaCamiloDaza')">
                 <div class="tarjeta-historia-deco"><img src="Imagenes/Historia.png" alt="mapa"
-                    style="width: 60%; height: auto;"></div>
+                    style="width: 60%; height: auto;" loading="lazy"></div>
                 <div class="tarjeta-historia-num">13</div>
                 <div class="tarjeta-historia-body">
                   <span class="tarjeta-historia-badge verde">1923 · Aviación</span>
@@ -2335,7 +2335,7 @@
 
           <div class="detalle-curiosidad">
             <div class="detalle-curiosidad-icono">
-              <img src="Imagenes/Cacique Cinera.png" style="width: 150px; height: auto; border-radius: 5px;">
+              <img src="Imagenes/Cacique Cinera.png" style="width: 150px; height: auto; border-radius: 5px;" loading="lazy">
             </div>
             <div>
               <div class="detalle-curiosidad-titulo">La Apariencia de los Cineras</div>
@@ -2389,7 +2389,7 @@
 
           <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
             <img src="Imagenes/Rio de las Palmas.png" alt="Paisaje del Río de las Palmas"
-              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
             <p style="font-style: italic; font-size: 0.9em; color: #555;">El "Río de las Palmas", bautizado así por
               Diego de Montes en 1561.</p>
           </div>
@@ -2407,7 +2407,7 @@
 
           <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
             <img src="Imagenes/Cacique Cinera.png" alt="El Cacique Cínera"
-              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
             <p style="font-style: italic; font-size: 0.9em; color: #555;">El Cacique Cínera, líder espiritual y guerrero
               de la nación Cinera, víctima de la crueldad española.</p>
           </div>
@@ -2426,7 +2426,7 @@
 
           <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
             <img src="Imagenes/La Hija Del Cacique, Zulia.png" alt="Coalición de tribus liderada por Zulia"
-              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
             <p style="font-style: italic; font-size: 0.9em; color: #555;">La coalición unificada de tribus Cineras,
               Cúcutas, Chitareros y Guanes, liderada por Zulia.</p>
           </div>
@@ -2448,7 +2448,7 @@
               style="font-weight: bold; color: #28a745; font-size: 1.2em; margin-bottom: 10px;"><img
                 src="Imagenes/Imagen rio de las palmas.png"
                 alt="Paisaje histórico del Río de las Palmas con vestigios de la villa"
-                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;">
+                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;" loading="lazy">
             </div>
             <p class="detalle-parrafo" style="margin: 0;">Aunque la <b>Villa de las Palmas</b> fue borrada de la faz de
               la tierra hace más de 450 años, su legado vive en el nombre actual de nuestro municipio. Cuando el capitán
@@ -2514,7 +2514,7 @@
 
           <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
             <img src="Imagenes/Villa de nriva (El asedio invisible).png" alt="Asedio invisible en la Villa de Nirva"
-              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
             <p style="font-style: italic; font-size: 0.9em; color: #555;">La Villa de Nirva quedó aislada por el asedio
               estratégico de los guerreros Cineras.</p>
             <p style="font-style: italic; font-size: 0.9em; color: #555;">"Ilustracion hecha a base de Inteligencia
@@ -2540,7 +2540,7 @@
             <div class="detalle-curiosidad-titulo"
               style="font-weight: bold; color: #28a745; font-size: 1.2em; margin-bottom: 10px;"><img
                 src="Imagenes/Guerra psicologica.png" alt="Imagen de la guerra psicológica de los Cineras"
-                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;">
+                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;" loading="lazy">
             </div>
             <p class="detalle-parrafo" style="margin: 0;">En este segundo intento, los indígenas demostraron una
               superioridad táctica asombrosa. No necesitaron una gran batalla campal; simplemente utilizaron el
@@ -2600,7 +2600,7 @@
             justo cuando los soldados intentaban descansar.</p>
           <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
             <img src="Imagenes/Asedio a villa rica.png" alt="El asedio a Villa Rica"
-              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
             <p style="font-style: italic; font-size: 0.9em; color: #555;">Villa Rica se transformó rápidamente en una
               cárcel de paranoia y nervios destrozados.</p>
             <p style="font-style: italic; font-size: 0.9em; color: #555;">"Ilustracion hecha a base de Inteligencia
@@ -2617,7 +2617,7 @@
             <div class="detalle-curiosidad-titulo"
               style="font-weight: bold; color: #28a745; font-size: 1.2em; margin-bottom: 10px;"><img
                 src="Imagenes/Soldados Fantasmas.png" alt="Imagen de la guerra psicológica de los Cineras"
-                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;">
+                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;" loading="lazy">
             </div>
             <p class="detalle-parrafo" style="margin: 0;">Los supervivientes de Villa Rica estaban tan aterrados por la
               habilidad de los Cineras que juraban que luchaban contra <b>espíritus del bosque</b> capaces de atravesar
@@ -2690,7 +2690,7 @@
           </p>
           <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
             <img src="Imagenes/Villa nirva del collado.png" alt="La Villa Nirva del Collado bajo el mando de Ramírez"
-              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
             <p style="font-style: italic; font-size: 0.9em; color: #555;">La Villa Nirva del Collado fue el asentamiento
               más sólido, pero también el más tiránico.</p>
           </div>
@@ -2723,7 +2723,7 @@
               style="font-weight: bold; color: #28a745; font-size: 1.2em; margin-bottom: 10px;"><img
                 src="Imagenes/Borrando el pasado de los cineras.png"
                 alt="Imagen de la guerra psicológica de los Cineras"
-                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;">
+                style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;" loading="lazy">
             </div>
             <p class="detalle-parrafo" style="margin: 0;">El <b>Capitán Ramírez</b> estaba tan seguro de su victoria que
               envió informes asegurando que los Cineras habían sido "domesticados". Su arrogancia fue tal que descuidó
@@ -3088,7 +3088,7 @@
           <figure class="detalle-archivo-libro">
             <div class="marco-imagen">
               <img src="Imagenes/Firma Fundador De Salazar de las Palmas.png"
-                alt="Firma de Alonso Esteban Rangel - Libro Génesis">
+                alt="Firma de Alonso Esteban Rangel - Libro Génesis" loading="lazy">
             </div>
             <figcaption>
               <strong>Evidencia Gráfica:</strong> Autógrafo del fundador tal como aparece en la obra <em>"Génesis de
@@ -3179,7 +3179,7 @@
             será el alma de Salazar de las Palmas.</p>
           <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
             <img src="Imagenes/Lapida De Alonso Esteban Rangel.png" alt="Lapida De Alonso Esteban Rangel"
-              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
             <p style="font-style: italic; font-size: 0.9em; color: #555;">Lapida que cubría la tumba del fundador de
               Salazar de las Palmas</p>
           </div>
@@ -3274,7 +3274,7 @@
           <!-- Dato curioso -->
           <div class="detalle-curiosidad">
             <div class="detalle-curiosidad-icono">
-              <img src="Imagenes/Grano de Cafe.avif" style="width: 60px; height: auto; border-radius: 5px;">
+              <img src="Imagenes/Grano de Cafe.avif" style="width: 60px; height: auto; border-radius: 5px;" loading="lazy">
             </div>
 
             <div>
@@ -3531,7 +3531,7 @@
             <div class="detalle-archivo-libro" style="margin: 0;">
               <div class="marco-imagen">
                 <img src="./Imagenes/Edificio De La Compañia.png" alt="Frontis del edificio"
-                  style="width: 100%; height: 100%; object-fit: cover;">
+                  style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               </div>
               <figcaption>
                 <strong>Frontis del hermoso edificio de la Compañía:</strong> Sede principal donde funcionaba la
@@ -3542,7 +3542,7 @@
             <div class="detalle-archivo-libro" style="margin: 0;">
               <div class="marco-imagen">
                 <img src="./Imagenes/Junta Directiva.png" alt="Junta Directiva"
-                  style="width: 100%; height: 100%; object-fit: cover;">
+                  style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               </div>
               <figcaption>
                 <strong>Junta Directiva – Board of Directors:</strong> Los gestores detrás de la "Compañía Anónima
@@ -3560,14 +3560,14 @@
           <div class="galeria-templo">
             <div class="foto-item">
               <img src="./Imagenes/Planta Hidroelectrica.png"
-                alt="Edificio de la antigua Central Salazar de las Palmas">
+                alt="Edificio de la antigua Central Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>Edificio de la antigua Central</p>
               </div>
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Planta Hidroelectrica2.png"
-                alt="Hermoso Edificio de la Central Salazar de las Palmas">
+                alt="Hermoso Edificio de la Central Salazar de las Palmas" loading="lazy">
               <div class="foto-info">
                 <p>Hermoso Edificio de la Central</p>
               </div>
@@ -3578,19 +3578,19 @@
           <div class="detalle-cards-mini" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
             <div class="detalle-card-mini">
               <img src="./Imagenes/Planta Hidroelectrica-Mecanismo.png"
-                style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+                style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
               <div class="detalle-card-mini-titulo">Mecanismo Interno</div>
               <p>Detalle de los generadores y motores General Electric de 180 HP.</p>
             </div>
             <div class="detalle-card-mini">
               <img src="./Imagenes/Planta Hidroelectrica-Mecanisco2.png"
-                style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+                style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
               <div class="detalle-card-mini-titulo">Sótano de Máquinas</div>
               <p>Maquinaria instalada en el nivel inferior para aprovechar la presión.</p>
             </div>
             <div class="detalle-card-mini">
               <img src="./Imagenes/Planta Hidroelectrica-Mecanismo3.png"
-                style="width: 100%; border-radius: 4px; margin-bottom: 8px;">
+                style="width: 100%; border-radius: 4px; margin-bottom: 8px;" loading="lazy">
               <div class="detalle-card-mini-titulo">Centro de Maniobras</div>
               <p>Personal técnico operando los tableros de distribución.</p>
             </div>
@@ -3599,7 +3599,7 @@
           <div class="resena">
             <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
               <img src="./Imagenes/Tubo turistico.png"
-                style="width: 230px; border-radius: 8px; border: 1px solid #6ab04c; flex-shrink: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                style="width: 230px; border-radius: 8px; border: 1px solid #6ab04c; flex-shrink: 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
               <div style="flex: 1; min-width: 280px;">
                 <p><strong>Dato Técnico y Curioso:</strong> La potencia del sistema era un testimonio de la ingeniería
                   de 1914. Al perforarse intencionalmente el tubo madre de la antigua central, la presión acumulada
@@ -3727,7 +3727,7 @@
             <div class="detalle-archivo-libro" style="margin: 0;">
               <div class="marco-imagen">
                 <img src="Imagenes/India Catalina.png" alt="India Catalina"
-                  style="width: 100%; height: 100%; object-fit: cover;">
+                  style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               </div>
               <figcaption><strong>India Catalina</strong></figcaption>
             </div>
@@ -3735,7 +3735,7 @@
             <div class="detalle-archivo-libro" style="margin: 0;">
               <div class="marco-imagen">
                 <img src="./Imagenes/Virgen De Belen.png" alt="Virgen De Belen"
-                  style="width: 100%; height: 100%; object-fit: cover;">
+                  style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               </div>
               <figcaption><strong>Virgen De Belen</strong></figcaption>
             </div>
@@ -3822,8 +3822,8 @@
 
             <div class="detalle-archivo-libro" style="margin: 0;">
               <div class="marco-imagen">
-                <img src="Imagenes/Santuario De la virgen.jpeg" alt="Santuario De La Virgen"
-                  style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="Imagenes/Vela Santuario  de la Virgen De Belen.jpeg" alt="Santuario De La Virgen"
+                  style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               </div>
               <figcaption><strong>Santuario De La Virgen</strong></figcaption>
             </div>
@@ -3831,7 +3831,7 @@
             <div class="detalle-archivo-libro" style="margin: 0;">
               <div class="marco-imagen">
                 <img src="./Imagenes/Virgen_de_Belén_de_Salazar_I (1).jpg" alt="Virgen De Belen_1"
-                  style="width: 100%; height: 100%; object-fit: cover;">
+                  style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               </div>
               <figcaption><strong>Virgen De Belen</strong></figcaption>
             </div>
@@ -3893,7 +3893,7 @@
             aire y la falta de oxígeno en una cabina abierta.</p>
           <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Camilo Daza.jpg" alt="Camilo Daza">
+              <img src="./Imagenes/Camilo Daza.jpg" alt="Camilo Daza" loading="lazy">
               <div class="foto-info">
                 <p>Retrato histórico en sepia del joven Camilo Daza (25 años). A la izquierda, se le ve junto a su
                   aeronave de madera y tela y un acompañante, posiblemente en un acto de bendición del avión. A la
@@ -3902,7 +3902,7 @@
               </div>
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Avioneta  De Camilo Daza.jpg" alt="Avioneta  De Camilo Daza">
+              <img src="./Imagenes/Avioneta  De Camilo Daza.jpg" alt="Avioneta  De Camilo Daza" loading="lazy">
               <div class="foto-info">
                 <p>Representación artística del avión "Bolívar" tras aterrizar en los potreros de Salazar de las Palmas.
                   La obra destaca la avioneta en la llanura de El Hatillo, rodeada por las imponentes montañas que Daza
@@ -3912,7 +3912,7 @@
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Imagen Tomada del libro Genesis Salazar De Las Palmas.png"
-                alt="Avioneta  De Camilo Daza">
+                alt="Avioneta  De Camilo Daza" loading="lazy">
               <div class="foto-info">
                 <p>Imagen Tomada del libro Genesis Salazar De Las Palmas</p>
               </div>
@@ -3971,7 +3971,7 @@
         <div class="footer-brand">
           <div class="logo-caja">
             <img src="Imagenes/Escudo Salazar De Las Palmas.png" style="width: 30px; height: auto; border-radius: 5px;"
-              alt="Escudo">
+              alt="Escudo" loading="lazy">
           </div>
           <div class="footer-brand-text">
             <strong>Salazar de las Palmas</strong>
@@ -5431,7 +5431,7 @@
     <button class="turismo-lightbox-nav turismo-lightbox-prev"
       onclick="navLightboxTurismo(-1);event.stopPropagation()">&#8249;</button>
     <div class="turismo-lightbox-inner">
-      <img class="turismo-lightbox-img" id="turismo-lightbox-img" src="" alt="">
+      <img class="turismo-lightbox-img" id="turismo-lightbox-img" src="" alt="" loading="lazy">
     </div>
     <button class="turismo-lightbox-nav turismo-lightbox-next"
       onclick="navLightboxTurismo(1);event.stopPropagation()">&#8250;</button>
@@ -5555,13 +5555,13 @@
         el nombre de "Juana Naranja".</p>
       <div class="galeria-templo">
         <div class="foto-item">
-          <img src="./Imagenes/Pozo Juana Naranja 4.jpeg" alt="Pozo Juana Naranja">
+          <img src="./Imagenes/Pozo Juana Naranja 4.jpeg" alt="Pozo Juana Naranja" loading="lazy">
           <div class="foto-info">
             <p>El majestuoso Pozo Juana Naranja</p>
           </div>
         </div>
         <div class="foto-item">
-          <img src="./Imagenes/Pozo Juana Naranja 5.jpeg" alt="Pozo Juana Naranja">
+          <img src="./Imagenes/Pozo Juana Naranja 5.jpeg" alt="Pozo Juana Naranja" loading="lazy">
           <div class="foto-info">
             <p>Un Pozo lleno de historia</p>
           </div>
@@ -5733,7 +5733,7 @@
         Nirva del Callado.</p>
       <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
         <img src="Imagenes/El cerro de triaca.png" alt="La Villa Nirva del Collado bajo el mando de Ramírez"
-          style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
         <p style="font-style: italic; font-size: 0.9em; color: #555;">"El Cerro de Triaca"</p>
       </div>
       <p class="detalle-parrafo">Según manifestaron las gentes viejas de la región existieron amplias plantaciones de
@@ -5785,7 +5785,7 @@
         explorarlas.</p>
       <div class="detalle-imagen-contenedor" style="text-align: center; margin: 20px 0;">
         <img src="Imagenes/Cueva de Triaca o  del Diablo.png" alt="La Villa Nirva del Collado bajo el mando de Ramírez"
-          style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">
         <p style="font-style: italic; font-size: 0.9em; color: #555;">Cueva de Triaca o del Diablo</p>
       </div>
       <p class="detalle-parrafo">La primera fue encabezada por don Juan Maldonado, alcalde de la poblacion e hijo muy
@@ -6770,28 +6770,28 @@
       </p>
       <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Semana Santa Salazar de las Palmas.jpg" alt="Semana Santa Salazar de las Palmas">
+              <img src="./Imagenes/Semana Santa Salazar de las Palmas.jpg" alt="Semana Santa Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Semana Santa Salazar de las Palmas 2.jpg" alt="Semana Santa Salazar de las Palmas">
+              <img src="./Imagenes/Semana Santa Salazar de las Palmas 2.jpg" alt="Semana Santa Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Semana Santa Salazar de las Palmas 3.jpg" alt="Semana Santa Salazar de las Palmas">
+              <img src="./Imagenes/Semana Santa Salazar de las Palmas 3.jpg" alt="Semana Santa Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Semana Santa Salazar de las Palmas 4.jpg" alt="Semana Santa Salazar de las Palmas">
+              <img src="./Imagenes/Semana Santa Salazar de las Palmas 4.jpg" alt="Semana Santa Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Semana Santa Salazar de las Palmas 5.jpg" alt="Semana Santa Salazar de las Palmas">
+              <img src="./Imagenes/Semana Santa Salazar de las Palmas 5.jpg" alt="Semana Santa Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Semana Santa Salazar de las Palmas 6.jpg" alt="Semana Santa Salazar de las Palmas">
+              <img src="./Imagenes/Semana Santa Salazar de las Palmas 6.jpg" alt="Semana Santa Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Semana Santa Salazar de las Palmas 7.jpg" alt="Semana Santa Salazar de las Palmas">
+              <img src="./Imagenes/Semana Santa Salazar de las Palmas 7.jpg" alt="Semana Santa Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Semana Santa Salazar de las Palmas 8.jpg" alt="Semana Santa Salazar de las Palmas">
+              <img src="./Imagenes/Semana Santa Salazar de las Palmas 8.jpg" alt="Semana Santa Salazar de las Palmas" loading="lazy">
             </div>
           </div>
       <!-- Botón volver -->
@@ -6940,29 +6940,29 @@
       </p>
       <div class="galeria-templo">
             <div class="foto-item">
-              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas.jpg" alt="Ferias y Fiestas Salazar de las Palmas">
+              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas.jpg" alt="Ferias y Fiestas Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
               <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 2.jpg"
-                alt="Ferias y Fiestas Salazar de las Palmas">
+                alt="Ferias y Fiestas Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 3.jpg" alt="Ferias y Fiestas Salazar de las Palmas">
+              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 3.jpg" alt="Ferias y Fiestas Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 4.jpg" alt="Ferias y Fiestas Salazar de las Palmas">
+              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 4.jpg" alt="Ferias y Fiestas Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 5.jpg" alt="Ferias y Fiestas Salazar de las Palmas">
+              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 5.jpg" alt="Ferias y Fiestas Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 6.jpg" alt="Ferias y Fiestas Salazar de las Palmas">
+              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 6.jpg" alt="Ferias y Fiestas Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 7.jpg" alt="Ferias y Fiestas Salazar de las Palmas">
+              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 7.jpg" alt="Ferias y Fiestas Salazar de las Palmas" loading="lazy">
             </div>
             <div class="foto-item">
-              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 8.jpg" alt="Ferias y Fiestas Salazar de las Palmas">
+              <img src="./Imagenes/Ferias y Fiestas Salazar de las Palmas 8.jpg" alt="Ferias y Fiestas Salazar de las Palmas" loading="lazy">
             </div>
           </div>
       <!-- Botón volver -->
@@ -7649,7 +7649,7 @@
                   distinguir a un estudiante Presentación.</li>
               </ul>
               <img src="Imagenes/Bandera Instituto Tecnico Nuestra Señora De Belen.png"
-                alt="Bandera Instituto Tecnico Nuestra Señora De Belen" style="width: 60%; height: auto;">
+                alt="Bandera Instituto Tecnico Nuestra Señora De Belen" style="width: 60%; height: auto;" loading="lazy">
             </div>
             <div class="itnsb-card-simbolo">
               <h4>El Escudo</h4>
@@ -7661,7 +7661,7 @@
                 estudiantes, y sobre todo el vinculo que los une a la virgen María: amor a Ella como modelo de Mujer
                 cristiana.</p>
               <img src="Imagenes/escudo Instituto Tecnico Nuestra Señora de Belen.png"
-                alt="escudo Instituto Tecnico Nuestra Señora de Belen" style="width: 50%; height: auto;">
+                alt="escudo Instituto Tecnico Nuestra Señora de Belen" style="width: 50%; height: auto;" loading="lazy">
             </div>
           </div>
 
@@ -8135,7 +8135,7 @@
             <div class="ita-card-simbolo">
               <div class="ita-simbolo-placeholder">
                 <img src="Imagenes/Escudo Instituto Tecnico Agricola.png"
-                  alt="escudo Instituto Tecnico Nuestra Señora de Belen" style="width: 100%; height: auto;">
+                  alt="escudo Instituto Tecnico Nuestra Señora de Belen" style="width: 100%; height: auto;" loading="lazy">
               </div>
               <h4>Escudo Institucional</h4>
               <p style="font-size: 0.9rem; color: #666; margin: 0;">Representación de los valores técnicos y agrícolas
@@ -8450,13 +8450,13 @@
       modal.innerHTML = `
       <div class="nm-navbar">
         <div class="logo-wrap" onclick="irAInicio(); cerrarNoticia();" style="cursor:pointer">
-          <div class="logo-caja"><img src="Imagenes/Escudo Salazar De Las Palmas.png" style="width:30px;height:auto;border-radius:5px;" alt="Escudo"></div>
+          <div class="logo-caja"><img src="Imagenes/Escudo Salazar De Las Palmas.png" style="width:30px;height:auto;border-radius:5px;" alt="Escudo" loading="lazy"></div>
           <div><strong>Salazar de las Palmas</strong><span>Norte de Santander · Colombia</span></div>
         </div>
         <button class="nm-volver nm-cerrar-x" onclick="cerrarNoticia()" aria-label="Cerrar">✕</button>
       </div>
       <div class="nm-inner">
-        <img src="${img}" alt="${n.titulo}" class="nm-img" onerror="this.src='${ph()}'">
+        <img src="${img}" alt="${n.titulo}" class="nm-img" onerror="this.src='${ph()}'" loading="lazy">
         <div class="nm-body">
           <span class="nc-fecha">${formatearFecha(n.fecha)}</span>
           <span class="nc-cat">${n.categoria}</span>
