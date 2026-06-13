@@ -4014,10 +4014,14 @@
         <div class="panel-titulo">Noticias Locales</div>
         <p class="panel-desc">Entérate de lo que está pasando en Salazar de las Palmas.</p>
         <div class="noticias-grid" id="noticias-grid"></div>
-        <div class="noticias-pie-creditos">
+        <!-- <div class="noticias-pie-creditos">
           Créditos a <a href="https://www.facebook.com/share/17Z336Tr6W/?mibextid=wwXIfr" target="_blank"
             rel="noopener noreferrer">Belencita Noticias Online New</a>
         </div>
+        
+          <p class="nc-inline-cred">Créditos a <a href="${FB_URL}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Belencita Noticias Online New</a></p> 
+          <p class="nm-cred">Créditos a <a href="${FB_URL}" target="_blank" rel="noopener noreferrer">Belencita Noticias Online New</a></p>  -->
+
       </div>
 
     </div><!-- fin columna izquierda -->
@@ -4073,9 +4077,7 @@
         <h3 class="footer-title">Síguenos</h3>
         <p class="footer-desc">Conecta con Salazar de las Palmas en redes sociales.</p>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook">f</a>
-          <a href="#" aria-label="Instagram">IG</a>
-          <a href="#" aria-label="YouTube">YT</a>
+          <a href="https://www.facebook.com/search/top/?q=Salazar%20de%20las%20Palmas" aria-label="Facebook">f</a>
         </div>
       </div>
     </div>
@@ -8477,7 +8479,13 @@
   <script src="./archivo.js"></script>
   <script>
     const NOTICIAS = [
-      { id: 1, fecha: "2026-06-05", categoria: "Medio Ambiente", titulo: "🌱 Día Mundial del Medio Ambiente 2026 🌱", texto: "La Alcaldía Municipal de Salazar, en articulación con el Instituto Técnico Agrícola, conmemoró el Día Mundial del Medio Ambiente a través de una significativa jornada de siembra de árboles junto a la comunidad educativa y líderes locales.", imagen: "" },
+      { id: 1, 
+        fecha: "2026-06-13", 
+        categoria: "Festividades", 
+        titulo: "Ferias y Fiestas Salazar de las Palmas", 
+        texto: "Del 26 al 29 de junio se celebran las ferias y fiestas de Salazar de las Palmas, ven y disfruta.", 
+        imagen: "Imagenes/Programacion ferias y fiestas.jpg" },
+        
     ];
     const FB_URL = "https://www.facebook.com/share/17Z336Tr6W/?mibextid=wwXIfr";
 
@@ -8507,7 +8515,6 @@
           <span class="nc-cat">${n.categoria}</span>
           <h3 class="nc-titulo">${n.titulo}</h3>
           <p class="nc-prev">${prev}</p>
-          <p class="nc-inline-cred">Créditos a <a href="${FB_URL}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Belencita Noticias Online New</a></p>
           <span class="nc-btn">Leer más</span>
         </div>
       </article>`;
@@ -8533,7 +8540,6 @@
           <span class="nc-cat">${n.categoria}</span>
           <h1 class="nm-titulo">${n.titulo}</h1>
           <p class="nm-texto">${n.texto}</p>
-          <p class="nm-cred">Créditos a <a href="${FB_URL}" target="_blank" rel="noopener noreferrer">Belencita Noticias Online New</a></p>
         </div>
       </div>`;
       modal.classList.add('abierto'); modal.scrollTop = 0; document.body.style.overflow = 'hidden';

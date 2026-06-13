@@ -1225,17 +1225,35 @@ Cierre
     font-size: 2rem;
   }
 
-  /* Navbar compacto: solo logo + hamburger, sin wrap */
+  /* Navbar en 2 filas: logo+hamburger arriba, secciones abajo en una sola línea */
   .navbar {
-    flex-wrap: nowrap;
-    padding: 12px 18px;
+    flex-wrap: wrap;
+    padding: 10px 16px 8px;
+    gap: 0;
     align-items: center;
   }
 
-  /* Ocultar la barra de secciones en el navbar — en móvil se usa el menú hamburguesa */
   .secciones-bar {
-    display: none;
+    position: static;
+    transform: none;
+    order: 3;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 6px 0 2px;
   }
+
+  .sec-btn {
+    padding: 6px 8px;
+    font-size: 9.5px;
+    letter-spacing: .03em;
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  .logo-wrap { order: 1; flex: 1; }
+  .hamburger { order: 2; }
 
   /* Las tarjetas en 2 columnas */
   .grilla {
