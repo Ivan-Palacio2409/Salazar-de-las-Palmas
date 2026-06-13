@@ -862,6 +862,27 @@ Cierre
   transform: translateY(-110%);
 }
 
+/* Botón X cerrar en navbar del detalle */
+.detalle-navbar-x {
+  width: 42px;
+  height: 42px;
+  background: rgba(255,255,255,0.12);
+  border: 1.5px solid rgba(255,255,255,0.28);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .2s, transform .2s;
+  flex-shrink: 0;
+}
+.detalle-navbar-x:hover {
+  background: rgba(255,255,255,0.25);
+  transform: rotate(90deg);
+}
+
 
 /* Botón X para cerrar */
 .detalle-cerrar-x {

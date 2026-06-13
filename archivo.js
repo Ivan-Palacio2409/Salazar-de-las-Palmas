@@ -120,9 +120,7 @@ function abrirDetalle(id) {
           <span>Norte de Santander · Colombia</span>
         </div>
       </div>
-      <div class="hamburger" onclick="abrirMenu()" title="Menú" aria-label="Abrir menú">
-        <span></span><span></span><span></span>
-      </div>`;
+      <button class="detalle-navbar-x" onclick="cerrarDetalleActivo()" title="Cerrar" aria-label="Cerrar">✕</button>`;
     detalle.insertBefore(nav, detalle.firstChild);
   }
 
@@ -339,9 +337,7 @@ function abrirTurismoDesdeHistoria(turismoId) {
           <span>Norte de Santander · Colombia</span>
         </div>
       </div>
-      <div class="hamburger" onclick="abrirMenu()" title="Menú" aria-label="Abrir menú">
-        <span></span><span></span><span></span>
-      </div>`;
+      <button class="detalle-navbar-x" onclick="cerrarDetalleActivo()" title="Cerrar" aria-label="Cerrar">✕</button>`;
     detalle.insertBefore(nav, detalle.firstChild);
   }
 
@@ -409,6 +405,10 @@ function abrirLightboxTurismo(galeriaId, index) {
   _lightboxIndex   = index;
   _mostrarFotoLightbox();
   const lb = document.getElementById('turismo-lightbox');
+  // Mover el lightbox al body para que no quede atrapado en overflow:hidden del detalle-overlay
+  if (lb.parentElement !== document.body) {
+    document.body.appendChild(lb);
+  }
   lb.classList.add('abierto');
   document.body.style.overflow = 'hidden';
 }
@@ -470,9 +470,7 @@ function abrirDetalleTurismo(idNuevo, idActual) {
           <span>Norte de Santander · Colombia</span>
         </div>
       </div>
-      <div class="hamburger" onclick="abrirMenu()" title="Menú" aria-label="Abrir menú">
-        <span></span><span></span><span></span>
-      </div>`;
+      <button class="detalle-navbar-x" onclick="cerrarDetalleActivo()" title="Cerrar" aria-label="Cerrar">✕</button>`;
     nuevo.insertBefore(nav, nuevo.firstChild);
   }
   nuevo.classList.add('abierto');

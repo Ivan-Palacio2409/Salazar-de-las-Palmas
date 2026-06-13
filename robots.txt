@@ -1,0 +1,12 @@
+# robots.txt — Salazar de las Palmas
+# https://salazar-de-las-palmas.netlify.app
+
+User-agent: *
+Allow: /
+
+# Archivos estáticos permitidos
+Allow: /Imagenes/
+Allow: /Audios/
+
+# Sitemap
+Sitemap: https://salazar-de-las-palmas.netlify.app/sitemap.xml
