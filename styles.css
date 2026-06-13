@@ -664,10 +664,25 @@ Cierre
 .caja-pergamino {
   flex: 2;            /* Le dice que sea más ancha (como el 60% del espacio) */
 }
+.caja-pergamino img { max-width: 100%; height: auto; }
 
 .caja-info {
   flex: 1;            /* Le dice que sea más angosta (el espacio sobrante) */
 }
+.caja-info audio { max-width: 100%; width: 100%; }
+
+/* Imágenes sueltas (bandera, escudo, etc.) que no tienen tamaño definido */
+h4.detalle-titulo-negro + img,
+H4.detalle-titulo-negro + img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .contenedor-principal { flex-direction: column; }
+}
+
 
 /* ══════════════════════════════════
    FOOTER
@@ -1937,6 +1952,7 @@ Cierre
   .si-seccion      { padding: 48px 18px 40px; }
   .si-clima-grid   { grid-template-columns: 1fr; max-width: 360px; }
   .si-geo-grid, .si-eco-grid { grid-template-columns: 1fr 1fr; }
+  .si-eco-grid-3   { grid-template-columns: 1fr; }
   .si-titulo       { font-size: 1.75rem; }
 }
 /* ══════════════════════════════════════════════════════════
