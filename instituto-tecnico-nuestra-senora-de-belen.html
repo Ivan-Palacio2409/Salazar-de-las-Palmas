@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ══ SEO BÁSICO ══ -->
+  <title>Instituto Técnico Nuestra Señora de Belén | Salazar de las Palmas</title>
+  <meta name="description" content="El Instituto Técnico Nuestra Señora de Belén es una institución educativa pública de Salazar de las Palmas, orientada a la formación técnica e integral, Norte de Santander.">
+  <meta name="keywords" content="Instituto Tecnico Nuestra Senora de Belen, educacion Salazar de las Palmas, colegio Norte de Santander">
+  <meta name="author" content="Salazar de las Palmas">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://salazar-de-las-palmas.netlify.app/instituto-tecnico-nuestra-senora-de-belen.html">
+
+  <!-- ══ OPEN GRAPH (Facebook, WhatsApp, redes sociales) ══ -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://salazar-de-las-palmas.netlify.app/instituto-tecnico-nuestra-senora-de-belen.html">
+  <meta property="og:title" content="Instituto Técnico Nuestra Señora de Belén | Salazar de las Palmas">
+  <meta property="og:description" content="El Instituto Técnico Nuestra Señora de Belén es una institución educativa pública de Salazar de las Palmas, orientada a la formación técnica e integral, Norte de Santander.">
+  <meta property="og:image" content="https://salazar-de-las-palmas.netlify.app/Imagenes/Parque%20Principal%206.jpeg">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Salazar de las Palmas">
+
+  <!-- ══ TWITTER CARD ══ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Instituto Técnico Nuestra Señora de Belén | Salazar de las Palmas">
+  <meta name="twitter:description" content="El Instituto Técnico Nuestra Señora de Belén es una institución educativa pública de Salazar de las Palmas, orientada a la formación técnica e integral, Norte de Santander.">
+  <meta name="twitter:image" content="https://salazar-de-las-palmas.netlify.app/Imagenes/Parque%20Principal%206.jpeg">
+
+  <!-- ══ GEO (búsquedas locales) ══ -->
+  <meta name="geo.region" content="CO-NSA">
+  <meta name="geo.placename" content="Salazar de las Palmas, Norte de Santander">
+  <meta name="geo.position" content="7.7736;-72.8135">
+  <meta name="ICBM" content="7.7736, -72.8135">
+
+  <!-- ══ SCHEMA.ORG (datos estructurados para Google) ══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Instituto Técnico Nuestra Señora de Belén",
+    "description": "El Instituto Técnico Nuestra Señora de Belén es una institución educativa pública de Salazar de las Palmas, orientada a la formación técnica e integral, Norte de Santander.",
+    "url": "https://salazar-de-las-palmas.netlify.app/instituto-tecnico-nuestra-senora-de-belen.html",
+    "image": "https://salazar-de-las-palmas.netlify.app/Imagenes/Parque%20Principal%206.jpeg",
+    "about": {
+      "@type": "Place",
+      "name": "Salazar de las Palmas",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Salazar de las Palmas",
+        "addressRegion": "Norte de Santander",
+        "addressCountry": "CO"
+      }
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Salazar de las Palmas",
+      "url": "https://salazar-de-las-palmas.netlify.app/"
+    }
+  }
+  </script>
+
+  <!-- ══ BREADCRUMB SCHEMA ══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Salazar de las Palmas",
+        "item": "https://salazar-de-las-palmas.netlify.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Instituciones Educativas",
+        "item": "https://salazar-de-las-palmas.netlify.app/#educacion"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Instituto Técnico Nuestra Señora de Belén",
+        "item": "https://salazar-de-las-palmas.netlify.app/instituto-tecnico-nuestra-senora-de-belen.html"
+      }
+    ]
+  }
+  </script>
+
+  <!-- ══ FAVICON ══ -->
+  <link rel="icon" type="image/png" href="Imagenes/Escudo Salazar De Las Palmas.png">
+
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,500&display=swap">
+
+  <style>
+    /* Página independiente: el overlay se muestra como contenido normal */
+    .detalle-overlay.pagina-standalone {
+      position: relative;
+      transform: none;
+      inset: auto;
+      z-index: auto;
+      min-height: auto;
+      display: block;
+      overflow: visible;
+    }
+    /* Hero genérico, igual al comportamiento del proyecto base (Parque Principal 6.jpeg) */
+    .pagina-standalone .detalle-hero-fondo {
+      background: url('./Imagenes/Parque%20Principal%206.jpeg') center/cover no-repeat !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ══ NAVBAR SIMPLE (página independiente) ══ -->
+  <nav class="navbar scrolled" style="position: relative; display:flex; justify-content:space-between; align-items:center;">
+    <a href="./index.html" class="logo-wrap" style="cursor:pointer; text-decoration:none;" title="Ir a Inicio">
+      <div class="logo-caja">
+        <img src="Imagenes/Escudo Salazar De Las Palmas.png" style="width: 30px; height: auto; border-radius: 5px;"
+          alt="Escudo">
+      </div>
+      <div>
+        <strong>Salazar de las Palmas</strong>
+        <span>Norte de Santander · Colombia</span>
+      </div>
+    </a>
+    <a href="./index.html" title="Cerrar y volver al inicio"
+      style="color:#fff; font-size:22px; line-height:1; text-decoration:none; padding:6px 10px; border-radius:6px; transition: background .2s;">✕</a>
+  </nav>
+
+
+  <div class="detalle-overlay pagina-standalone" id="detalle-itnsb">
+
+    <!-- HERO del detalle -->
+    <div class="detalle-hero">
+      <div class="detalle-hero-fondo"></div>
+      <div class="detalle-hero-oscuro"></div>
+      <div class="detalle-hero-contenido">
+        <a class="detalle-breadcrumb" href="./index.html#educacion">← Volver</a>
+        <h1 class="detalle-hero-titulo">INSTITUTO TECNICO NUESTRA SEÑORA DE BELEN</h1>
+      </div>
+    </div>
+    <div class="detalle-cuerpo">
+      <div class="itnsb-contenedor">
+
+        <!-- 1. ENCABEZADO Y CONTACTO -->
+        <div class="itnsb-header">
+          <div class="itnsb-titulo-bloque">
+            <h2 class="itnsb-titulo">Instituto Técnico Nuestra Señora de Belén</h2>
+            <p class="itnsb-subtitulo">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+              Institución Educativa Técnica | Salazar de las Palmas
+            </p>
+          </div>
+
+          <div class="itnsb-contacto-grid">
+            <!-- Bloque de Rectoría -->
+            <div class="itnsb-contacto-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+              <div><strong>Rectoría</strong><br>Nini Johanna Rozo Poveda<br>Dirección Institucional</div>
+            </div>
+            <div class="itnsb-contacto-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <div><strong>Sede Principal</strong><br>Carrera 5ª. N° 1-30<br>Sector El Volante</div>
+            </div>
+            <div class="itnsb-contacto-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              <div><strong>Teléfonos</strong><br>5668037<br>Cel: 320 4252326</div>
+            </div>
+            <div class="itnsb-contacto-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <div><strong>Correo Eléctronico</strong><br>colbelensalazar@gmail.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Ubicación Sede Principal</h3>
+          </div>
+          <p style="margin-top: 0; margin-bottom: 1.5rem; color: #555;">Encuéntranos en la <strong>Carrera 5ª.
+              Número 1-30, sector El Volante</strong>, en el corazón de Salazar de las Palmas.</p>
+
+          <div
+            style="border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; height: 380px; box-shadow: inset 0 0 10px rgba(0,0,0,0.05);">
+            <iframe width="100%" height="100%" style="border:0;" loading="lazy" allowfullscreen
+              src="https://maps.google.com/maps?q=Instituto+T%C3%A9cnico+Nuestra+Se%C3%B1ora+de+Bel%C3%A9n,Salazar+de+las+Palmas,Norte+de+Santander&t=&z=16&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- 2. QUIÉNES SOMOS E INTRODUCCIÓN -->
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">¿Quiénes Somos?</h3>
+          </div>
+          <p>La verdadera esencia de nuestra comunidad es escuchar el pálpito de cada corazón, profesar ese hermoso
+            sentimiento de amor y confianza en Dios y en las demás personas. Por eso, ante todo, somos una institución
+            enamorada de la vida y de la esperanza. Llevamos el pecho en altivez por el honor de ser hijos de Dios y de
+            saber amarnos los unos a los otros. Desde ya sembramos jardines de paz y compromiso en nuestra sociedad,
+            tenemos la voz dispuesta a profetizar el respeto y la gratitud, llevamos las manos extendidas para sostener
+            con bases éticas y morales cualquier problema, que por más difícil que parezca, tiene solución.</p>
+          <p>Nuestro espíritu solidario siempre camina por los senderos donde es posible lograr los sueños. Desde allí,
+            educamos para que los soñadores comprendan que si continúan mirando hacia el cielo, seguramente pronto
+            terminarán por tener alas. Alas para que la imaginación sea libre y vuele, para que los buenos sentimientos
+            se eleven por todas las alturas del infinito, sean fuertes e imperecederos. ¿Acaso existe un ser humano que
+            observe el naranja-atardecer del cielo y no sueñe? Por esencia el alma del ser humano prefiere la paz a la
+            guerra. ¿Podría alguien ignorar que una lágrima es una caricia del alma? ¿Que el alma es el lugar más
+            tranquilo que posee la humanidad?</p>
+          <p>En nuestra alma ya han sido dibujados los rostros de cada uno de los miembros de nuestra comunidad, algunos
+            más silentes que otros, otros más tiernos, y unos pocos más serios, pero todos semejantes al deseo de Dios.
+            Y esa es nuestra alma, la que nos fortalece, la que nos encamina con paso firme, recto y sobre todo, la que
+            nos hace una comunidad amparada por el amor de Dios. Somos, desde este punto de vista, dedos para construir
+            el mundo, ojos para contemplar cada cosa con asombro y respeto, olfato para percibir el aroma de la rosa y
+            el aliento del amado, abrazo para sostener al amigo, piel para estremecerse por el beso de la madre, mente
+            para comprender lo que se muestra diáfano u opaco en el devenir humano y finalmente, corazón para saltar,
+            educar, aprender, reír, y amar a Dios por sobre todo lo que nos rodea.</p>
+
+          <div class="itnsb-cita">
+            <strong>Introducción a nuestra labor:</strong><br>
+            La educación desde la perspectiva de las hermanas de la Caridad Dominicas de la Presentación de la Santísima
+            Virgen, es una prioridad que debe estar enmarcada con especial énfasis en los criterios que animaron la
+            espiritualidad y la mística educativa de Marie Poussepin: <em>“… De todas las obras de caridad la que puede
+              procurar más gloria a Dios y más provecho a los hombres es la educación…”</em>. Tal visión implica asumir
+            como parte esencial de la propia identidad aquellos principios rectores que constituyen un referente
+            actualizado de lo que es la Hermana y los Laicos, auténticos educadores, hoy: <em>“…Tened mucha ternura y
+              vigilancia con la juventud que educáis: tratad de haceros temer y amar al mismo tiempo, sed dulce sin
+              debilidad, firmes sin dureza, graves sin altivez, corregid sin cólera. No demostréis menos amor a los
+              pobres que a los ricos y sobre todo, tened una gran preocupación de edificar igualmente el alma de unos y
+              otros, por vuestras palabras y vuestros ejemplos…”</em>.
+          </div>
+        </div>
+
+        <!-- 3. IDENTIDAD INSTITUCIONAL -->
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Misión, Visión y Filosofía</h3>
+          </div>
+          <div class="itnsb-grid-2">
+            <div>
+              <h4
+                style="color: #1a4a7d; border-bottom: 2px solid #d4a44a; padding-bottom: 0.5rem; display: inline-block;">
+                Misión</h4>
+              <p>Somos una comunidad educativa de carácter público, dirigida por las Hermanas Dominicas de la
+                Presentación, con un personal calificado e idóneo, que orienta integralmente niños, niñas, adolescentes
+                y adultos; en los niveles de Preescolar, Básica primaria, Básica secundaria, Media técnica con base en
+                los lineamientos del Ministerio de Educación Nacional, la asesoría del Servicio Nacional de Aprendizaje
+                (SENA), que otorga a los estudiantes una técnica en asistencia administrativa, proyectos educativos como
+                SER HUMANO, con Responsabilidad, Respeto, Honestidad, Piedad, Trabajo, Sencillez y Solidaridad; para
+                presentar a la comunidad, hombres y mujeres, social, cultural y laboralmente competentes, que mejore la
+                calidad de vida de las familias salazareñas.</p>
+            </div>
+            <div>
+              <h4
+                style="color: #1a4a7d; border-bottom: 2px solid #d4a44a; padding-bottom: 0.5rem; display: inline-block;">
+                Visión</h4>
+              <p>El Instituto Técnico Nuestra Señora de Belén en su proceso educativo evangelizador se compromete a
+                ofrecer a sus estudiantes un servicio educativo de calidad que responda a sus expectativas y la de sus
+                familias. Para ello, cuenta con un personal idóneo y comprometido con el mejoramiento de sus procesos y
+                competencias comunicativas, ciudadanas y laborales que busca contribuir con el desarrollo de la
+                localidad, de la región y del país.</p>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #eee;">
+            <h4 style="color: #1a4a7d; margin-top: 0;">Filosofía Institucional</h4>
+            <p>Contamos con un proyecto educativo sólido y en proceso de articulación constante con la realidad que
+              apunta a la formación integral desarrollando armónicamente la dimensión ética, espiritual, cognitiva,
+              afectiva, corporal, estética, comunicativa y socio-política de la persona.</p>
+            <p>Ofrecemos un sistema educativo que capacite para ser personas y ser uno mismo en dimensión individual y
+              social, dentro de un proceso de humanización de la educación que desarrolle sus valores humanos y pueda
+              hacer opciones que lo comprometan en la lucha por una realidad en donde se integre la ciencia, la fe y la
+              cultura colombiana con una visión de profundidad en la inagotable riqueza de la realidad, y su
+              creatividad.</p>
+            <p>Queremos formar personas con un amplio sentido de la vida, capaces de crear un compromiso en la
+              construcción de un orden equitativo, justo, participativo y solidario.</p>
+          </div>
+        </div>
+
+        <!-- 4. SÍMBOLOS -->
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+              <line x1="4" y1="22" x2="4" y2="15" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Símbolos Institucionales</h3>
+          </div>
+          <div class="itnsb-grid-2">
+            <div class="itnsb-card-simbolo">
+              <h4>La Bandera</h4>
+              <p>La bandera de nuestro colegio es esencialmente Mariana como Salazar; de ahí los colores blanco y azul,
+                distribuidos en tres franjas horizontales iguales: dos azules y una blanca que va en medio de las dos
+                azules.</p>
+              <ul style="padding-left: 1rem;">
+                <li><strong>El blanco:</strong> Simboliza la transparencia, claridad y paz que debe distinguir a un
+                  estudiante Presentación.</li>
+                <li><strong>El azul:</strong> Simboliza la sencillez y lealtad; la profundidad y prudencia que debe
+                  distinguir a un estudiante Presentación.</li>
+              </ul>
+              <img src="Imagenes/Bandera Instituto Tecnico Nuestra Senora De Belen.png"
+                alt="Bandera Instituto Tecnico Nuestra Señora De Belen" style="width: 60%; height: auto;" loading="lazy">
+            </div>
+            <div class="itnsb-card-simbolo">
+              <h4>El Escudo</h4>
+              <p>El escudo se encuentra ubicado en el centro de la bandera de la institución. El circulo con fondo azul
+                simboliza la armonía y la sencillez que deben distinguirnos.</p>
+              <p>Esculpida en él, una abeja dorada símbolo del trabajo, constancia en el estudio, disciplina
+                intelectual, valoración, superación constante y buen uso del tiempo. Enmarcado en una decena del
+                rosario, el cual representa el gusto por la oración y la piedad que debe inspirar la vida de los
+                estudiantes, y sobre todo el vinculo que los une a la virgen María: amor a Ella como modelo de Mujer
+                cristiana.</p>
+              <img src="Imagenes/escudo Instituto Tecnico Nuestra Senora de Belen.png"
+                alt="escudo Instituto Tecnico Nuestra Señora de Belen" style="width: 50%; height: auto;" loading="lazy">
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem; text-align: center;">
+            <h4 style="color: #1a4a7d; margin-bottom: 0.5rem; font-size: 1.4rem;">Lema Institucional</h4>
+            <div
+              style="display: inline-block; background: #1a4a7d; color: white; padding: 0.8rem 2rem; border-radius: 50px; font-weight: bold; font-size: 1.2rem; letter-spacing: 1px;">
+              "SIEMPRE LO MEJOR" - "CON CALIDAD HACIA LA CALIDAD"
+            </div>
+          </div>
+
+          <div class="itnsb-himno" style="margin-top: 2rem;">
+            <h4 style="color: #1a4a7d; font-style: normal; margin-top: 0;">Himno de la Institución</h4>
+
+            <h5>CORO</h5>
+            <p>En espíritu todos unidos<br>
+              En abrazo fraterno de amor<br>
+              Fresca sabia de tronco robusto<br>
+              Sueño azul de la presentación.</p>
+
+            <div class="itnsb-grid-2" style="gap: 1rem; text-align: center; margin-top: 1rem;">
+              <div>
+                <h5>I</h5>
+                <p>De ideales conquistas gloriosas<br>
+                  Codiciándolo esta el corazón<br>
+                  Cual cosecha de estrellas fulgentes<br>
+                  Y trigales en constelación.</p>
+
+                <h5>II</h5>
+                <p>Nuestras almas cuales linfas bullentes<br>
+                  Sean cáliz de todo sabor<br>
+                  Ritmo alegre y eterno que late<br>
+                  Al latir de la presentación.</p>
+
+                <h5>III</h5>
+                <p>Juventud animad vuestro brazo<br>
+                  Nuestro pecho se enciende en ardor<br>
+                  Y marchemos las manos unidas<br>
+                  Como hermano y hermana hasta Dios</p>
+              </div>
+              <div>
+                <h5>IV</h5>
+                <p>En panales de amor libar puedan<br>
+                  Corazones piedad y virtud<br>
+                  Cuando poseen su planta en el mundo<br>
+                  Y en sus huellas florezca la luz</p>
+
+                <h5>V</h5>
+                <p>Todo alumno entronice en su vida<br>
+                  Esta sola palabra ¡Verdad!<br>
+                  Sencillez el crisol de sus obras<br>
+                  Y el camino de su integridad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. HISTORIA Y SIGLO XXI -->
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Historia y Desarrollo</h3>
+          </div>
+
+          <p>El colegio Nuestra Señora de Belén fue fundado un <strong>11 de marzo de 1915</strong> en el municipio de
+            Salazar de las Palmas, Norte de Santander por solicitud del reverendo padre José Trinidad de Jesús Zafra,
+            párroco del lugar y distinguidos caballeros de la localidad, quienes gestionaron ante la superiora
+            provincial de Bogotá, el envío de las hermanas.</p>
+          <p>En respuesta a esta solicitud, fueron destinadas las hermanas, Helena (superiora), María Indalecia, María
+            Laura e Ignacia del Carmen que desde su llegada sintieron el cariño de la ciudadanía y la confianza del
+            pueblo. Al iniciar había 60 alumnas de las cuales 37 eran internas y unos 15 niños para la sección infantil.
+            El colegio fue constituido como plantel educativo con la ordenanza numero 8 del 6 de abril de 1915 bajo la
+            dirección de la hermana María Amelia.</p>
+          <p>El colegio tomó fuerza, pero en 1932 la violencia política hizo que las hermanas tuvieran que salir del
+            pueblo como medida prudencial, por orden del arzobispo de Pamplona Monseñor Rafael Afanador. La institución
+            educativa durante ese tiempo fue dirigida por personal seglar.</p>
+          <p>En <strong>1939 fue el feliz retorno</strong>, gracias a la gestión de los padres de familia y el honorable
+            consejo municipal. El señor Jesús Barrera escrituró a la comunidad de las hermanas de la presentación una
+            casa de su propiedad donde su única petición fue que llevara el nombre de NUESTRA SEÑORA DE BELÉN en honor a
+            la reina de Salazar.</p>
+          <p>Desde 1946 hasta 1949 el colegio tuvo la oportunidad de darle una orientación normalista que luego hacia
+            los años de 1950 se encaminó hacia el comercio para capacitar a las estudiantes en la consecución de un
+            empleo digno. Durante el año de 1964 la hermana María Abigail inició la construcción del actual edificio
+            donde se dictan las clases.</p>
+          <p>En 1965 se establecieron cuatro años de comercio y en 1966 se graduó la primera promoción de bachillerato
+            básico comercial. Hacia el año de 1971 se organizaron las clases nocturnas para darle la oportunidad a la
+            gente pobre y sencilla. En 1982 se obtuvo la aprobación del bachillerato comercial bajo la dirección de la
+            hermana María de Jesús Sierra completando así el ciclo desde el preescolar hasta el último grado de estudios
+            secundarios. En el año de 1986 la federación de cafeteros hizo entrega de la unidad de sanitarios (aportando
+            el 70% de recursos).</p>
+
+          <div class="itnsb-cita">
+            <strong>Condecoración en Salazar (1990):</strong><br>
+            Con la dirección de la hermana María Celina Sanabria, la comunidad celebra las bodas de diamante, es decir,
+            75 años de presencia activa, formando muchas generaciones en la población. Estos festejos transcurrieron en
+            un ambiente de gratitud por parte de todos los miembros de la comunidad educativa.
+          </div>
+
+          <h4 style="color: #1a4a7d; margin-top: 2rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">El
+            Colegio en el Siglo XXI</h4>
+          <p>Con los cambios de la nueva ley de educación en el año 2001, bajo la dirección de la hermana Martha
+            Gonzales (Decreto N° 000187) se fusionaron al colegio las otras sedes de primaria: José Celestino Mutis y
+            Nueva Generación, así como el Instituto Técnico Agrícola y Miguela Torres.</p>
+          <p>En el año 2009 con la hermana Gladis Inés Tirado, la secretaría de educación departamental ordenó la
+            separación del Instituto Agrícola para respetar la autonomía de los establecimientos educativos en cuanto a
+            la orientación de las modalidades.</p>
+          <p>Desde el año 2002 la hermana Delia Vargas Galeano tomó la dirección de la institución, y es ella quien
+            orienta el proyecto educativo bajo las políticas educativas del estado y las orientaciones de la comunidad
+            de la presentación. Sus metas de calidad son la puntualidad, la presentación personal, el rendimiento
+            académico y la buena convivencia.</p>
+          <p><strong>Especialidad Técnica Actual:</strong> La especialidad técnica que imparte el colegio en la
+            actualidad en convenio y asesoría con el <strong>SENA es de ASISTENCIA ADMINISTRATIVA</strong>, la cual hace
+            ciudadanos y ciudadanas cultural y laboralmente competentes, pretendiendo mejorar la calidad de vida de la
+            región y preparándolos académicamente para la formación profesional.</p>
+        </div>
+
+        <!-- 6. VALORES INSTITUCIONALES -->
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Valores Institucionales</h3>
+          </div>
+          <p>Los valores ayudan a la construcción integral del ser humano y dan sentido a la vida. En el colegio como
+            espacio de formación y vivencia del Evangelio, los valores se articulan con la filosofía institucional y la
+            pedagogía de Marie Poussepin dentro de un contexto de la realidad sociocultural. Se asume la vida en todas
+            sus manifestaciones y en especial la vida humana y a la persona como la expresión máxima de la existencia.
+          </p>
+          <p>El Colegio apoya desde los diferentes estamentos el desarrollo de los valores en cada uno de sus miembros
+            para que todo lo realizado esté en la línea de la justicia, la libertad, el cumplimiento del deber, y la
+            estabilidad ética y fraterna, educando desde la verdad y para la verdad con una actitud dialogante,
+            reflexiva, tolerante y auténtica.</p>
+          <p><strong>La pedagogía del amor</strong>, herencia y compromiso esencial con el Carisma fundacional de Marie
+            Poussepin convierten el valor del amor en rasgo fundamental de identidad y sentido de pertenencia al
+            Colegio.</p>
+
+          <div class="itnsb-grid-3" style="margin-top: 2rem;">
+            <div class="itnsb-valor-card">
+              <h4>Piedad</h4>
+              <p>Orientar a la trascendencia, a la verdad y mantener la existencia abierta al diálogo con DIOS, con las
+                personas y la naturaleza.</p>
+            </div>
+            <div class="itnsb-valor-card">
+              <h4>Sencillez</h4>
+              <p>Establecer relaciones positivas con los otros sin excluir a nadie, dar y recibir afecto, respetarse,
+                valorarse a sí mismo y reconocer los dones de los demás.</p>
+            </div>
+            <div class="itnsb-valor-card">
+              <h4>Trabajo</h4>
+              <p>Participar en la obra creadora de DIOS, desarrollando y perfeccionando al máximo las capacidades y
+                talentos.</p>
+            </div>
+            <div class="itnsb-valor-card">
+              <h4>Responsabilidad</h4>
+              <p>Cumplir los deberes que hacen de las personas individuos comprometidos consigo mismo y con la sociedad.
+              </p>
+            </div>
+            <div class="itnsb-valor-card">
+              <h4>Respeto</h4>
+              <p>Reconocer en todas las personas su dignidad como ser humano, desde las diferencias de género, raza,
+                ideología y creencias.</p>
+            </div>
+            <div class="itnsb-valor-card">
+              <h4>Solidaridad</h4>
+              <p>Dar desinteresadamente, buscar el bien común y trabajar con generosidad al servicio de los necesitados.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. MODELO PEDAGÓGICO -->
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Modelo Pedagógico: Formación Integral Humana</h3>
+          </div>
+          <p><strong>Estrategia Pedagógica:</strong> La propuesta pedagógica de Escuela Transformadora en el Colegio
+            tiene como misión “Formar al ser humano, en la madurez de sus procesos, para que construya el conocimiento y
+            transforme su realidad sociocultural, resolviendo problemas desde la innovación educativa”. Esta misión le
+            permite al estudiante relacionar el ser con el saber y el saber hacer y desarrollar su capacidad de sentir
+            pensar y actuar.</p>
+          <p>Nuestro modelo pedagógico de Escuela Transformadora y Aprendizaje Significativo define con claridad y
+            exactitud una misión emancipadora e innovadora y cinco tareas básicas de forma integral e integradora. Damos
+            prelación a la formación y promoción humana de nuestros estudiantes, docentes, padres de familia y en
+            general de todo el talento humano.</p>
+
+          <h4 style="color: #1a4a7d; margin-top: 1.5rem;">Supuestos del modelo pedagógico</h4>
+          <p>El modelo pedagógico sustentado en los supuestos o ejes de “FORMACION INTEGRAL HUMANA” se construye en la
+            acción pedagógica docente, explícitamente en la interrelación enseñanza-aprendizaje, docente-dicente,
+            sujeto-cultura.</p>
+          <p>La propuesta se centra en el sujeto histórico capaz de entender la realidad, comprenderse a sí mismo en
+            relación con los otros, transformar la historia y la cultura hacia posibilidades de relación humana más
+            satisfactorias y significativas. Sirve como marco de referencia en permanente construcción para la práctica
+            docente, en tanto generadora de relaciones intersubjetivas (componente interrelacional); en cuanto se
+            construye el conocimiento (componente epistémico); integra a los sujetos en la propia comprensión de sí
+            mismos (componente psicológico); con miras a que construyan significatividad, trasciendan la realidad
+            transformándola y cuiden la naturaleza (componente biotrascendental).</p>
+          <p>Es decir, el modelo pedagógico es una propuesta antropológica, personalista, una alternativa epistemológica
+            multidisciplinar, que en contexto sociocultural de identidad humana se experimenta <em>“como construcción
+              permanente de identidad y trascendencia”</em>.</p>
+        </div>
+
+        <!-- 8. LA FUNDADORA -->
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+              <line x1="7" y1="7" x2="7.01" y2="7" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Nuestra Fundadora: Marie Poussepin</h3>
+          </div>
+          <p><strong>Marie Poussepin (Dourdan, 14 de octubre de 1653 - Sainville, 24 de enero de 1744)</strong>,
+            religiosa católica fundadora de la congregación Hermanas de la Caridad Dominicas de la Presentación,
+            dedicada a ayudar a los más desfavorecidos. Nace en Dourdan (Francia) y es bautizada el mismo día. Sus
+            padres, Claudio Poussepin y Julianne Fourrier, eran feligreses muy comprometidos. Como hija mayor, asume la
+            responsabilidad familiar tras la muerte de su madre en 1675, asumiendo la educación de su hermano menor
+            Claudio.</p>
+          <p>Hacia 1680, ante la quiebra de su padre, Marie toma una iniciativa atrevida: transforma el taller familiar
+            en una manufactura de medias de lana, importando máquinas y dando trabajo a jóvenes de 16 a 20 años,
+            estableciendo contratos sociales justos y dando inicio al desarrollo económico de Dourdan.</p>
+          <p>En 1691, guiada por el padre Francisco Mespolie OP, entra en la Orden Tercera de Santo Domingo. Hacia 1696
+            se traslada a la modesta aldea de Sainville, donde alquila una casa y con tres jóvenes abre una escuela y
+            visita a los enfermos. Nace así la primera hermana de la caridad dominicana apostólica, con la intención de
+            dar a la Iglesia una Comunidad nueva, Dominicana por el espíritu y entregada a una Misión de Caridad por la
+            práctica de "las obras de misericordia". Deciden que la Virgen María de la Presentación sea su patrona.</p>
+          <p>Las constituciones de la Congregación fueron autorizadas en 1738 por el obispo de Chartres, reconociendo
+            oficialmente a la congregación. En su último testamento recomendó el celo por la instrucción de la juventud,
+            el cuidado a los pobres, el espíritu de pobreza y el amor al trabajo. Muere el 24 de enero de 1744 a los 90
+            años.</p>
+          <p>El 20 de noviembre de 1994 en Roma es Beatificada por Su Santidad Juan Pablo II. Casi 300 años después de
+            su muerte, la Congregación lleva la vitalidad de su Carisma evangelizador a 36 países en cuatro continentes.
+          </p>
+          <div class="itnsb-galeria">
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Marie Possepin.png" alt="Marie Possepin" class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+            </div>
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Marie Possepin 2.png" alt="Marie Possepin" class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+            </div>
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Marie Possepin 3.png" alt="Marie Possepin" class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. INFORMACIÓN GENERAL Y SEDES -->
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <polyline points="14 2 14 8 20 8" />
+              <line x1="16" y1="13" x2="8" y2="13" />
+              <line x1="16" y1="17" x2="8" y2="17" />
+              <polyline points="10 9 9 9 8 9" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Información del Establecimiento</h3>
+          </div>
+
+          <table class="itnsb-info-table">
+            <tbody>
+              <tr>
+                <th>Establecimiento</th>
+                <td>Instituto Técnico Nuestra Señora de Belén</td>
+              </tr>
+              <tr>
+                <th>Departamento / Municipio</th>
+                <td>Norte de Santander (Código: 54) / Salazar de las Palmas (Código: 660)</td>
+              </tr>
+              <tr>
+                <th>Carácter y Naturaleza</th>
+                <td>OFICIAL</td>
+              </tr>
+              <tr>
+                <th>Jornada y Calendario</th>
+                <td>Completa / Calendario A</td>
+              </tr>
+              <tr>
+                <th>Modalidad Principal</th>
+                <td>Técnico en Asistencia Administrativa del SENA</td>
+              </tr>
+              <tr>
+                <th>Modelos Flexibles</th>
+                <td>Proyecto Educativo Ser Humano</td>
+              </tr>
+              <tr>
+                <th>Rectora</th>
+                <td>Hna. Delia Vargas Galeano (Especialista en Educación con énfasis en Evaluación)</td>
+              </tr>
+              <tr>
+                <th>Registro de Inscripción</th>
+                <td>Ante la Secretaria de Educación: 2410099</td>
+              </tr>
+              <tr>
+                <th>Códigos</th>
+                <td>DANE: 154660000698 | NIT: 807-005-546-2 | ICFES: 033696</td>
+              </tr>
+              <tr>
+                <th>Licencia de Funcionamiento</th>
+                <td>Resolución No. 004852 (Noviembre 30 de 2009) / Decreto Creación: Nº 000893 (Septiembre 30 de 2002)
+                </td>
+              </tr>
+              <tr>
+                <th>Grado en Escalafón</th>
+                <td>14</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="itnsb-sedes">
+            <h4>Sedes Educativas</h4>
+            <ul>
+              <li><strong>Sede Principal:</strong> Instituto Técnico Nuestra Señora de Belén (Carrera 5ª. Número 1-30 el
+                Volante) - DANE 15466000069801</li>
+              <li><strong>Sede Nueva Generación:</strong> Cra. 5 # 4-30 (Teléfono: 5668273, del 17 de marzo de 1955) -
+                DANE 54660000069803</li>
+              <li><strong>Sede José Celestino Mutis:</strong> Clle. 3ª #-08 Esquina - DANE 154660000069804</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="itnsb-seccion">
+          <div class="itnsb-seccion-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <polyline points="21 15 16 10 5 21" />
+            </svg>
+            <h3 class="itnsb-seccion-titulo">Galería Institucional</h3>
+          </div>
+
+          <div class="itnsb-galeria">
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Instituto Tecnico Nuestra Senora de Belen.jpg" alt="Fachada del Instituto"
+                class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+              <div class="itnsb-galeria-overlay">
+                <h4 class="itnsb-galeria-titulo">Instalaciones</h4>
+              </div>
+            </div>
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Instituto Tecnico Nuestra Senora de Belen 2.jpg" alt="Patio Central"
+                class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+              <div class="itnsb-galeria-overlay">
+                <h4 class="itnsb-galeria-titulo">Instalaciones</h4>
+              </div>
+            </div>
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Instituto Tecnico Nuestra Senora de Belen 3.jpg" alt="Actividades Educativas"
+                class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+              <div class="itnsb-galeria-overlay">
+                <h4 class="itnsb-galeria-titulo">Actividades Educativas</h4>
+              </div>
+            </div>
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Instituto Tecnico Nuestra Senora de Belen 4.jpg" alt="Eventos Institucionales"
+                class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+              <div class="itnsb-galeria-overlay">
+                <h4 class="itnsb-galeria-titulo">Eventos Institucionales</h4>
+              </div>
+            </div>
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Instituto Tecnico Nuestra Senora de Belen 5.jpg" alt="Eventos Institucionales"
+                class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+              <div class="itnsb-galeria-overlay">
+                <h4 class="itnsb-galeria-titulo">Eventos Institucionales</h4>
+              </div>
+            </div>
+            <div class="itnsb-galeria-item">
+              <img src="Imagenes/Instituto Tecnico Nuestra Senora de Belen 6.jpg" alt="Eventos Institucionales"
+                class="itnsb-galeria-img"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%231a4a7d\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M3 9h18M9 21V9\'/></svg>'">
+              <div class="itnsb-galeria-overlay">
+                <h4 class="itnsb-galeria-titulo">Eventos Institucionales</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- Cierra .itnsb-contenedor -->
+      <!-- Botón volver -->
+      <div class="detalle-volver">
+        <a class="detalle-btn-volver" href="./index.html#educacion" style="text-decoration:none;display:inline-block;">← Volver</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MÁS CONTENIDO RELACIONADO ══ -->
+  <div style="max-width: 1200px; margin: 40px auto; padding: 0 20px;">
+    <h2 class="detalle-seccion-titulo-verde">Más sobre Instituciones Educativas</h2>
+    <div style="display:flex; flex-wrap:wrap; gap:14px; margin-top:16px;">
+      <a href="./instituto-tecnico-agricola.html" style="display:inline-block;padding:10px 16px;background:#f4f1e8;border-radius:8px;text-decoration:none;color:#1e293b;font-weight:600;font-size:14px;border:1px solid #e5e0d3;">Instituto Técnico Agrícola</a>
+    </div>
+  </div>
+
+  <!-- ══ FOOTER NUEVO ══ -->
+  <footer class="footer-new">
+    <div class="footer-pattern" aria-hidden="true"></div>
+    <div class="footer-grid">
+      <!-- Marca -->
+      <div class="footer-col">
+        <div class="footer-brand">
+          <div class="logo-caja">
+            <img src="Imagenes/Escudo Salazar De Las Palmas.png" style="width: 30px; height: auto; border-radius: 5px;"
+              alt="Escudo" loading="lazy">
+          </div>
+          <div class="footer-brand-text">
+            <strong>Salazar de las Palmas</strong>
+            <span>Municipio de Colombia</span>
+          </div>
+        </div>
+        <p class="footer-desc">
+          Un municipio con más de 440 años de historia, ubicado en el departamento de
+          Norte de Santander. Tierra de caficultores, ganaderos y salazareños orgullosos
+          de su herencia.
+        </p>
+        <p class="footer-meta">Norte de Santander, Colombia</p>
+      </div>
+
+      <!-- Suscripción -->
+      <div class="footer-col">
+        <h3 class="footer-title">Sigue La Pagina</h3>
+        <p class="footer-desc">Visita nuestra pagina web para estar atento a las novedades de nuestro municipio</p>
+        <p class="footer-fineprint">Investiga la historia de nuestro muncipio y visita los sitios turisticos que guarda
+          Salazar de las Palmas un pueblo magico</p>
+      </div>
+
+      <!-- Enlaces -->
+      <div class="footer-col">
+        <h3 class="footer-title">Enlaces Rápidos</h3>
+        <ul class="footer-links">
+          <li><a href="https://www.salazardelaspalmas-nortedesantander.gov.co" target="_blank"
+              rel="noopener noreferrer">Trámites Municipales</a></li>
+          <li><a href="./index.html#sitios">Turismo y Cultura</a></li>
+          <li><a href="./index.html#noticias">Noticias Locales</a></li>
+          <li><a href="./index.html#historia">Historia del Municipio</a></li>
+        </ul>
+      </div>
+
+      <!-- Redes -->
+      <div class="footer-col">
+        <h3 class="footer-title">Síguenos</h3>
+        <p class="footer-desc">Conecta con Salazar de las Palmas en redes sociales.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/search/top/?q=Salazar%20de%20las%20Palmas" aria-label="Facebook">f</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-watermark" aria-hidden="true">SALAZAR</div>
+      <div class="footer-copy">
+        <p>© <span id="footer-year"></span> Salazar de las Palmas. Todos los derechos reservados.</p>
+        <p>Municipio de Norte de Santander, Colombia</p>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>

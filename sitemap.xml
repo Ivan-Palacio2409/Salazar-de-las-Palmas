@@ -52,4 +52,205 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- ══ MITOS Y LEYENDAS ══ -->
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/leyenda-pozo-juana-naranja.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/leyenda-cueva-de-mil-pesos.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/leyenda-piedra-rica-y-piedras-vivas.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/leyenda-cerro-de-triaca.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/leyenda-cueva-de-triaca-cueva-del-diablo.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ══ HISTORIA ══ -->
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-rey-miguel.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-resistencia-cinera.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-primera-prefundacion.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-segunda-prefundacion.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-tercera-prefundacion.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-cuarta-prefundacion.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-fundacion-salazar-de-las-palmas.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-capitan-alonso-esteban-rangel.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-cuna-del-cafe-en-colombia.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-pioneros-electricos-hidroelectrica.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-milagro-del-lienzo.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-traslado-del-lienzo.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/historia-hazana-camilo-daza.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ══ FESTIVIDADES ══ -->
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/festividad-fiesta-virgen-de-belen.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/festividad-semana-santa.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/festividad-4-de-noviembre-aniversario.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/festividad-ferias-y-fiestas.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/festividad-ano-viejo.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ══ CONFORMACIÓN TERRITORIAL ══ -->
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/corregimientos-de-salazar-de-las-palmas.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/veredas-de-salazar-de-las-palmas.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/barrios-de-salazar-de-las-palmas.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ══ INSTITUCIONES EDUCATIVAS ══ -->
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/instituto-tecnico-nuestra-senora-de-belen.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://salazar-de-las-palmas.netlify.app/instituto-tecnico-agricola.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
