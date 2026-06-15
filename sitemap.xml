@@ -4,297 +4,52 @@
   <!-- ══ PÁGINA PRINCIPAL ══ -->
   <url>
     <loc>https://salazar-de-las-palmas.netlify.app/</loc>
-    <lastmod>2025-06-13</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- ══ SECCIONES PRINCIPALES ══ -->
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#inicio</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#sitios</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#simbolos</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#historia</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#noticias</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- ══ SITIOS TURÍSTICOS ══ -->
   <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-ParquePrincipal</loc>
-    <lastmod>2025-06-13</lastmod>
+    <loc>https://salazar-de-las-palmas.netlify.app/parque-principal.html</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-TemploSanPablo</loc>
-    <lastmod>2025-06-13</lastmod>
+    <loc>https://salazar-de-las-palmas.netlify.app/templo-san-pablo-apostol.html</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-SieteChorros</loc>
-    <lastmod>2025-06-13</lastmod>
+    <loc>https://salazar-de-las-palmas.netlify.app/los-siete-chorros.html</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-CasaDeMercado</loc>
-    <lastmod>2025-06-13</lastmod>
+    <loc>https://salazar-de-las-palmas.netlify.app/rio-salazar.html</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-RioSalazar</loc>
-    <lastmod>2025-06-13</lastmod>
+    <loc>https://salazar-de-las-palmas.netlify.app/casa-de-mercado.html</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-patinodromo</loc>
-    <lastmod>2025-06-13</lastmod>
+    <loc>https://salazar-de-las-palmas.netlify.app/patinodromo-municipal.html</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- ══ HISTORIA ══ -->
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-ReyMiguel</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-CulturaCinera</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-PrimeraPrefundacion</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-SegundaPrefundacion</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-TerceraPrefundacion</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-CuartaPrefundacion</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-fundacion</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-Fundador</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-CunaDelCafe</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-Hidroelectrica</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-MilagrosoLienzo</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-TransladoDelLienzo</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-AvionetaCamiloDaza</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- ══ LEYENDAS ══ -->
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-leyenda1</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-leyenda2</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-leyenda3</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-leyenda4</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-leyenda5</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- ══ FESTIVIDADES ══ -->
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-FiestaVirgenMaria</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-SemanaSanta</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-4DeNoviembre</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-Ferias</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-AnoViejo</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- ══ CONFORMACIÓN DEL MUNICIPIO ══ -->
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-corregimientos</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-veredas</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-barrios</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- ══ INSTITUCIONES EDUCATIVAS ══ -->
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-itnsb</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#detalle-ita</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- ══ TRANSPORTE ══ -->
-  <url>
-    <loc>https://salazar-de-las-palmas.netlify.app/#seccion-transporte</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
 </urlset>
