@@ -3469,3 +3469,39 @@ H4.detalle-titulo-negro + img {
   .sabias-que-banner { flex-wrap: wrap; }
   .sabias-que-btn { width: 100%; text-align: center; }
 }
+/* ══ Corrección: Lema Institucional (píldora) en móvil ══ */
+@media (max-width: 600px) {
+  .lema-pill {
+    display: block !important;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 16px !important;
+    padding: 0.9rem 1.2rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5;
+    text-align: center;
+    white-space: normal !important;
+  }
+}
+
+/* ══ Corrección: detalle-curiosidad en móvil (imagen arriba, texto abajo) ══ */
+@media (max-width: 600px) {
+  .detalle-curiosidad {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .detalle-curiosidad-icono {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .detalle-curiosidad-icono img {
+    width: 70% !important;
+    max-width: 220px;
+    height: auto !important;
+  }
+  .detalle-curiosidad-titulo {
+    text-align: center;
+  }
+}
